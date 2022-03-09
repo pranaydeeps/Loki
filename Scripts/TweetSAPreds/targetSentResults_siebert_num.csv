@@ -1,0 +1,1989 @@
+Negative_siebert,Neutral_siebert,Positive_siebert,dom_tweet_sent_siebert,total_tweet_count,search_query,coviddomain,entity
+0.68,0.0,0.32,Negative,72.0,angel moroni’s trumpet,0,angel moroni’s trumpet
+0.56,0.0,0.44,Negative,701.0,coronavirus vaccines,1,coronavirus vaccines
+0.56,0.0,0.44,Negative,869.0,malaria,0,malaria
+0.43,0.0,0.57,Positive,1068.0,abraham lincoln,0,abraham lincoln
+0.29,0.0,0.71,Positive,900.0,vizag,0,vizag
+0.87,0.0,0.13,Negative,883.0,trump followers,0,trump followers
+0.49,0.0,0.51,Positive,820.0,man,0,man
+0.62,0.0,0.38,Negative,8.0,lei-meng yan,0,lei-meng yan
+0.46,0.0,0.54,Positive,787.0,thomas,0,thomas
+0.33,0.0,0.67,Positive,797.0,administrator,0,administrator
+0.37,0.0,0.63,Positive,970.0,work from home yoga pants,0,work from home yoga pants
+0.28,0.0,0.72,Positive,820.0,vaccine phase 3 trial,1,vaccine phase 3 trial
+0.27,0.0,0.73,Positive,633.0,day,0,day
+0.46,0.0,0.54,Positive,841.0,reddit,0,reddit
+0.77,0.0,0.23,Negative,949.0,swine,0,swine
+0.47,0.0,0.53,Positive,924.0,corona beer,1,corona beer
+0.46,0.0,0.54,Positive,931.0,emoji,0,emoji
+0.34,0.0,0.66,Positive,825.0,human resources,0,human resources
+0.8,0.0,0.2,Negative,960.0,red card,0,red card
+0.5,0.0,0.5,Negative,2.0,sasquatch/ bigfoot,0,sasquatch/ bigfoot
+0.63,0.0,0.37,Negative,949.0,daylight savings time,0,daylight savings time
+0.29,0.0,0.71,Positive,918.0,margarita,0,margarita
+0.29,0.0,0.71,Positive,898.0,2020 graduation,0,2020 graduation
+0.31,0.0,0.69,Positive,951.0,maggie,0,maggie
+0.86,0.0,0.14,Negative,897.0,sheeple,0,sheeple
+0.31,0.0,0.69,Positive,905.0,whatsapp,0,whatsapp
+0.46,0.0,0.54,Positive,949.0,teachers and staff,0,teachers and staff
+0.63,0.0,0.37,Negative,520.0,china,1,china
+0.51,0.0,0.49,Negative,356.0,united states,0,united states
+0.19,0.0,0.81,Positive,834.0,varun dhawan,0,varun dhawan
+0.47,0.0,0.53,Positive,929.0,pigeon,0,pigeon
+0.32,0.0,0.68,Positive,933.0,siracha,0,siracha
+0.46,0.0,0.54,Positive,831.0,belgium,0,belgium
+0.35,0.0,0.65,Positive,836.0,introverts,0,introverts
+0.54,0.0,0.46,Negative,975.0,old teachers,0,old teachers
+0.36,0.0,0.64,Positive,950.0,farm parents,0,farm parents
+0.72,0.0,0.28,Negative,686.0,isarelis,0,isarelis
+0.38,0.0,0.62,Positive,884.0,state bank of india sbi ,0,state bank of india (sbi)
+0.37,0.0,0.63,Positive,866.0,pune,0,pune
+0.42,0.0,0.58,Positive,816.0,apocalypse outfit,0,apocalypse outfit
+0.86,0.0,0.14,Negative,879.0,impeachment,0,impeachment
+0.52,0.0,0.48,Negative,919.0,windows 95,0,windows 95
+0.22,0.0,0.78,Positive,864.0,toppers,0,toppers
+0.83,0.0,0.17,Negative,877.0,donald trump mask,1,donald trump mask
+0.44,0.0,0.56,Positive,886.0,african sleeping sickness,1,african sleeping sickness
+0.57,0.0,0.43,Negative,347.0,children,0,children
+0.3,0.0,0.7,Positive,871.0,oscar wilde,0,oscar wilde
+0.54,0.0,0.46,Negative,885.0,pharmacist,0,pharmacist
+1.0,0.0,0.0,Negative,1.0,siracha hand sanitizer,1,siracha hand sanitizer
+0.62,0.0,0.38,Negative,916.0,coworkers,0,coworkers
+0.7,0.0,0.3,Negative,912.0,chinese woman,1,chinese woman
+0.41,0.0,0.59,Positive,848.0,june,0,june
+0.64,0.0,0.36,Negative,810.0,brain,0,brain
+0.72,0.0,0.28,Negative,904.0,oil wars,0,oil wars
+0.61,0.0,0.39,Negative,896.0,divorce lawyer,0,divorce lawyer
+0.39,0.0,0.61,Positive,929.0,doritos,0,doritos
+0.29,0.0,0.71,Positive,21.0,travel influncers,1,travel influncers
+0.35,0.0,0.65,Positive,728.0,mexican,0,mexican
+0.8,0.0,0.2,Negative,5.0,tony vs khabib,0,tony vs khabib
+0.61,0.0,0.39,Negative,912.0,coronavirus transmission,1,coronavirus transmission
+0.68,0.0,0.32,Negative,25.0,quaranitned,0,quaranitned
+0.3,0.0,0.7,Positive,961.0,betty,0,betty
+0.48,0.0,0.52,Positive,1211.0,goa way,0,goa way
+0.77,0.0,0.23,Negative,814.0,elected officials,0,elected officials
+0.4,0.0,0.6,Positive,863.0,pubg,0,pubg
+0.48,0.0,0.52,Positive,607.0,bar,0,bar
+0.76,0.0,0.24,Negative,910.0,prostitutes,0,prostitutes
+0.43,0.0,0.57,Positive,54.0,normal people vs people with coronavirus,1,normal people vs people with coronavirus
+0.37,0.0,0.63,Positive,901.0,online teaching,0,online teaching
+0.59,0.0,0.41,Negative,879.0,society,0,society
+0.39,0.0,0.61,Positive,926.0,vulcan,0,vulcan
+0.38,0.0,0.62,Positive,983.0,fruit,0,fruit
+0.67,0.0,0.33,Negative,890.0,health officials,0,health officials
+0.8,0.0,0.2,Negative,905.0,clown,0,clown
+0.69,0.0,0.31,Negative,593.0,hong kong,0,hong kong
+0.84,0.0,0.16,Negative,937.0,harvey weinstein,0,harvey weinstein
+0.43,0.0,0.57,Positive,917.0,macaulay culkin,0,macaulay culkin
+0.54,0.0,0.46,Negative,771.0,england,0,england
+0.0,0.0,1.0,Positive,1.0,work from home (wfh),0,work from home (wfh)
+0.77,0.0,0.23,Negative,927.0,mass shootings,0,mass shootings
+0.5,0.0,0.5,Negative,674.0,new york city,0,new york city
+0.32,0.0,0.68,Positive,842.0,dwayne johnson,0,dwayne johnson
+0.51,0.0,0.49,Negative,849.0,online school,0,online school
+0.61,0.0,0.39,Negative,889.0,restaurants,0,restaurants
+0.76,0.0,0.24,Negative,929.0,cooties,0,cooties
+0.3,0.0,0.7,Positive,897.0,david willey,1,david willey
+0.35,0.0,0.65,Positive,821.0,simulations,0,simulations
+0.77,0.0,0.23,Negative,958.0,closed borders,0,closed borders
+0.63,0.0,0.37,Negative,846.0,plague outbreaks,0,plague outbreaks
+0.36,0.0,0.64,Positive,828.0,bengaluru,0,bengaluru
+0.48,0.0,0.52,Positive,965.0,waffle house,0,waffle house
+0.37,0.0,0.63,Positive,375.0,home,0,home
+0.31,0.0,0.69,Positive,858.0,indian cook,0,indian cook
+0.38,0.0,0.62,Positive,894.0,pajamas,0,pajamas
+0.59,0.0,0.41,Negative,894.0,uber,0,uber
+0.19,0.0,0.81,Positive,764.0,allah,0,allah
+0.44,0.0,0.56,Positive,907.0,genz,0,genz
+0.37,0.0,0.63,Positive,850.0,milkshakes,0,milkshakes
+0.62,0.0,0.38,Negative,932.0,catholic church,0,catholic church
+0.46,0.0,0.54,Positive,889.0,volcano,0,volcano
+0.41,0.0,0.59,Positive,395.0,essay,0,essay
+0.22,0.0,0.78,Positive,766.0,t shirt,0,tshirt
+1.0,0.0,0.0,Negative,1.0,pornhub exces,0,pornhub exces
+0.33,0.0,0.67,Positive,796.0,berlin,0,berlin
+0.35,0.0,0.65,Positive,890.0,summer,0,summer
+0.67,0.0,0.33,Negative,917.0,botox,0,botox
+0.61,0.0,0.39,Negative,828.0,sars,0,sars
+0.68,0.0,0.32,Negative,908.0,executioners,0,executioners
+0.77,0.0,0.23,Negative,907.0,russia vaccine,1,russia vaccine
+0.46,0.0,0.54,Positive,854.0,pubs,0,pubs
+0.4,0.0,0.6,Positive,928.0,budweiser,0,budweiser
+0.35,0.0,0.65,Positive,846.0,ahmedabad,0,ahmedabad
+0.62,0.0,0.38,Negative,748.0,internet,0,internet
+0.45,0.0,0.55,Positive,797.0,nostradamus,0,nostradamus
+0.31,0.0,0.69,Positive,956.0,club teams,0,club teams
+0.36,0.0,0.64,Positive,14.0,lars printzen,0,lars printzen
+0.33,0.0,0.67,Positive,940.0,marine drivers,0,marine drivers
+0.74,0.0,0.26,Negative,976.0,muzzles,0,muzzles
+0.56,0.0,0.44,Negative,894.0,horse people,0,horse people
+0.41,0.0,0.59,Positive,707.0,navy,0,navy
+0.3,0.0,0.7,Positive,871.0,daniel radcliffe,0,daniel radcliffe
+0.75,0.0,0.25,Negative,924.0,media houses,0,media houses
+0.5,0.0,0.5,Positive,758.0,lucknow,0,lucknow
+0.51,0.0,0.49,Negative,886.0,other students,0,other students
+1.0,0.0,0.0,Negative,1.0,chinese restaurant. mom,1,chinese restaurant. mom
+0.54,0.0,0.46,Negative,93.0,muhammad sarim akhtar,0,muhammad sarim akhtar
+0.37,0.0,0.63,Positive,914.0,consciousness,0,consciousness
+0.74,0.0,0.26,Negative,876.0,toilet paper,0,toilet paper
+0.47,0.0,0.53,Positive,1154.0,battle ship,0,battle ship
+0.8,0.0,0.2,Negative,905.0,quarantines,1,quarantines
+0.63,0.0,0.37,Negative,775.0,tedros adhanom ghebreyesus,0,tedros adhanom ghebreyesus
+0.59,0.0,0.41,Negative,883.0,pigeons,0,pigeons
+0.36,0.0,0.64,Positive,817.0,bacon,0,bacon
+0.44,0.0,0.56,Positive,905.0,worldwide stock market,0,worldwide stock market
+0.79,0.0,0.21,Negative,707.0,covid lockdown,1,covid lockdown
+0.49,0.0,0.51,Positive,761.0,chinese product,1,chinese product
+0.78,0.0,0.22,Negative,705.0,people with the flu,1,people with the flu
+0.5,0.0,0.5,Positive,941.0,liquor shop,0,liquor shop
+0.66,0.0,0.34,Negative,946.0,funny mask,1,funny mask
+0.66,0.0,0.34,Negative,691.0,epidemic,0,epidemic
+0.47,0.0,0.53,Positive,290.0,cdc certified mask,1,cdc certified mask
+0.41,0.0,0.59,Positive,820.0,rogers,0,rogers
+0.57,0.0,0.43,Negative,917.0,asian americans,0,
+0.35,0.0,0.65,Positive,970.0,corona extra drink,1,corona extra drink
+0.75,0.0,0.25,Negative,904.0,hollywood exposed,0,hollywood exposed
+0.27,0.0,0.73,Positive,929.0,doggo,0,doggo
+0.21,0.0,0.79,Positive,1147.0,sasquatch bigfoot,0,
+0.33,0.0,0.67,Positive,865.0,singapore,0,singapore
+0.66,0.0,0.34,Negative,672.0,population,0,population
+0.61,0.0,0.39,Negative,864.0,prince charles,0,prince charles
+0.86,0.0,0.14,Negative,811.0,rapist,0,rapist
+0.73,0.0,0.27,Negative,213.0,donald trunmp,0,donald trunmp
+0.57,0.0,0.43,Negative,816.0,janata curfew,0,janata curfew
+0.66,0.0,0.34,Negative,973.0,sports commentators,0,sports commentators
+0.69,0.0,0.31,Negative,947.0,traffic warden,0,traffic warden
+0.38,0.0,0.62,Positive,957.0,ps4,0,ps4
+0.73,0.0,0.27,Negative,740.0,plane,0,plane
+0.46,0.0,0.54,Positive,964.0,chetan bhagat,0,chetan bhagat
+0.35,0.0,0.65,Positive,658.0,cid,0,cid
+0.42,0.0,0.58,Positive,851.0,vicks,0,vicks
+0.67,0.0,0.33,Negative,900.0,wuhan kid,1,wuhan kid
+0.49,0.0,0.51,Positive,917.0,social distancing tool,0,social distancing tool
+0.63,0.0,0.37,Negative,895.0,corona vaccine,1,corona vaccine
+0.32,0.0,0.68,Positive,828.0,black friday,0,black friday
+0.77,0.0,0.23,Negative,920.0,donals trump,0,donals trump
+0.64,0.0,0.36,Negative,872.0,pants,0,pants
+0.7,0.0,0.3,Negative,834.0,delhi people,0,delhi people
+0.18,0.0,0.82,Positive,897.0,full moon,0,full moon
+0.52,0.0,0.48,Negative,924.0,company,0,company
+0.29,0.0,0.71,Positive,937.0,mass rapid transit mrt ,0,mass rapid transit (mrt)
+0.75,0.0,0.25,Negative,793.0,uber drivers,0,uber drivers
+0.89,0.0,0.11,Negative,730.0,liberals,0,liberals
+0.3,0.0,0.7,Positive,874.0,mac dre,0,mac dre
+0.51,0.0,0.49,Negative,707.0,teams,0,teams
+0.43,0.0,0.57,Positive,887.0,national broadband network,0,national broadband network
+0.76,0.0,0.24,Negative,609.0,angel moroni trumpet,0,angel moroni trumpet
+0.41,0.0,0.59,Positive,747.0,boyfriend,0,boyfriend
+0.66,0.0,0.34,Negative,911.0,disinfectant,1,disinfectant
+0.53,0.0,0.47,Negative,806.0,groceries,0,groceries
+0.44,0.0,0.56,Positive,912.0,amitabh bacchan,0,amitabh bacchan
+0.6,0.0,0.4,Negative,865.0,people with the coronavirus,1,people with the coronavirus
+0.83,0.0,0.17,Negative,555.0,wuhan virus,1,wuhan virus
+0.45,0.0,0.55,Positive,959.0,titanic,0,titanic
+0.11,0.0,0.89,Positive,321.0,sensible prepper,0,sensible prepper
+0.68,0.0,0.32,Negative,913.0,xi jinping,0,xi jinping
+0.72,0.0,0.28,Negative,745.0,self quarantine,1,self quarantine
+0.51,0.0,0.49,Negative,868.0,city parents,0,city parents
+0.27,0.0,0.73,Positive,871.0,masakkali,0,masakkali
+0.6,0.0,0.4,Negative,856.0,breaking news,0,breaking news
+0.78,0.0,0.22,Negative,23.0,anti vaxxers,1,antivaxxers
+0.56,0.0,0.44,Negative,962.0,people with chronic illness,1,people with chronic illness
+0.43,0.0,0.57,Positive,466.0,the queen,0,the queen
+0.36,0.0,0.64,Positive,900.0,spring break,0,spring break
+0.35,0.0,0.65,Positive,894.0,koala,0,koala
+0.41,0.0,0.59,Positive,738.0,bitcoin,0,bitcoin
+0.55,0.0,0.45,Negative,952.0,hand santitizer,0,hand santitizer
+0.15,0.0,0.85,Positive,1178.0,ultimate fighting championship (ufc),0,ultimate fighting championship (ufc)
+0.52,0.0,0.48,Negative,885.0,chunky pandey,0,chunky pandey
+0.76,0.0,0.24,Negative,798.0,avian flu,1,avian flu
+0.55,0.0,0.45,Negative,875.0,pilots,0,pilots
+0.31,0.0,0.69,Positive,930.0,the simpsons,0,the simpsons
+0.47,0.0,0.53,Positive,909.0,farmers,0,farmers
+0.29,0.0,0.71,Positive,1136.0,loyal dog,0,loyal dog
+0.0,0.0,1.0,Positive,2.0,wuhan nobyl,1,wuhan nobyl
+0.61,0.0,0.39,Negative,351.0,chinese,1,chinese
+0.85,0.0,0.15,Negative,908.0,covidiot,1,covidiot
+0.22,0.0,0.78,Positive,855.0,allah. girls,0,allah. girls
+0.26,0.0,0.74,Positive,842.0,william shakespeare,1,william shakespeare
+0.54,0.0,0.46,Negative,880.0,indonesians,0,indonesians
+0.11,0.0,0.89,Positive,943.0,the legend of zelda,0,the legend of zelda
+0.5,0.0,0.5,Positive,873.0,gen z,0,genz
+0.57,0.0,0.43,Negative,951.0,bank balance,0,bank balance
+0.64,0.0,0.36,Negative,756.0,coronavirus,1,corona virus
+0.56,0.0,0.44,Negative,339.0,media,0,media
+0.66,0.0,0.34,Negative,743.0,jewish,0,jewish
+0.45,0.0,0.55,Positive,1170.0,telekinesis,0,telekinesis
+0.38,0.0,0.62,Positive,848.0,helium,0,helium
+0.49,0.0,0.51,Positive,944.0,us,0,us
+0.76,0.0,0.24,Negative,1033.0,china officials,1,china officials
+0.82,0.0,0.18,Negative,907.0,tump supporter,0,tump supporter
+0.46,0.0,0.54,Positive,328.0,pattinson,0,pattinson
+0.62,0.0,0.38,Negative,796.0,bank account,0,bank account
+0.37,0.0,0.63,Positive,1195.0,cybersecurity people,0,cybersecurity people
+0.54,0.0,0.46,Negative,812.0,cruise,0,cruise
+0.33,0.0,0.67,Positive,943.0,dinner,0,dinner
+0.79,0.0,0.21,Negative,778.0,coronavirus party,1,coronavirus party
+0.36,0.0,0.64,Positive,911.0,c major,0,c major
+0.39,0.0,0.61,Positive,888.0,bingo,0,bingo
+0.8,0.0,0.2,Negative,952.0,national emergency,0,national emergency
+0.71,0.0,0.29,Negative,842.0,melania,0,melania
+0.47,0.0,0.53,Positive,932.0,online gamers,0,online gamers
+0.88,0.0,0.12,Negative,922.0,libtards,0,libtards
+0.52,0.0,0.48,Negative,1057.0,kathy hochul,0,kathy hochul
+0.87,0.0,0.13,Negative,735.0,anti-vax kid,1,anti-vax kid
+0.54,0.0,0.46,Negative,945.0,the apocalypse,0,the apocalypse
+0.59,0.0,0.41,Negative,911.0,covid19 meme,1,covid19 meme
+0.17,0.0,0.83,Positive,825.0,postcard,0,postcard
+0.55,0.0,0.45,Negative,874.0,summer 2020,0,summer 2020
+0.78,0.0,0.22,Negative,134.0,people with flu,1,people with flu
+0.31,0.0,0.69,Positive,1216.0,kobe bryant,0,kobe bryant
+0.65,0.0,0.35,Negative,826.0,oxygen,0,oxygen
+0.45,0.0,0.55,Positive,883.0,chinese friend,1,chinese friend
+0.41,0.0,0.59,Positive,934.0,chinese buffet,1,chinese buffet
+0.72,0.0,0.28,Negative,613.0,taxes,0,taxes
+0.49,0.0,0.51,Positive,810.0,united nations,0,united nations
+0.66,0.0,0.34,Negative,913.0,berine sanders,0,berine sanders
+0.57,0.0,0.43,Negative,1157.0,russian nurse,0,russian nurse
+0.69,0.0,0.31,Negative,1034.0,us state department,0,us state department
+0.64,0.0,0.36,Negative,855.0,military doctors,0,military doctors
+0.71,0.0,0.29,Negative,781.0,journalists,0,journalists
+0.42,0.0,0.58,Positive,912.0,marty,0,marty
+0.43,0.0,0.57,Positive,953.0,girl,0,girl
+0.62,0.0,0.38,Negative,870.0,united states of america,0,united states of america
+0.36,0.0,0.64,Positive,709.0,pet,0,pet
+0.62,0.0,0.38,Negative,910.0,grocery store,0,grocery store
+0.43,0.0,0.57,Positive,877.0,the world,0,the world
+0.68,0.0,0.32,Negative,936.0,education system,0,education system
+0.74,0.0,0.26,Negative,695.0,masks,1,masks
+0.55,0.0,0.45,Negative,721.0,antarctica,0,antarctica
+0.54,0.0,0.46,Negative,614.0,island,0,island
+0.62,0.0,0.38,Negative,856.0,travellers,0,travellers
+0.73,0.0,0.27,Negative,933.0,hantavirus,1,hantavirus
+0.49,0.0,0.51,Positive,438.0,water,0,water
+0.3,0.0,0.7,Positive,960.0,birthday plan,0,birthday plan
+0.25,0.0,0.75,Positive,810.0,webcam,0,webcam
+0.56,0.0,0.44,Negative,896.0,rob schneider,0,rob schneider
+0.41,0.0,0.59,Positive,890.0,fencing,0,fencing
+0.71,0.0,0.29,Negative,631.0,chinese people,1,chinese people
+0.71,0.0,0.29,Negative,948.0,karen essential oils,0,karen essential oils
+0.45,0.0,0.55,Positive,836.0,boss,0,boss
+0.55,0.0,0.45,Negative,957.0,flying cars,0,flying cars
+0.56,0.0,0.44,Negative,689.0,united nations un ,0,united nations (un)
+0.63,0.0,0.37,Negative,913.0,vicodin,0,vicodin
+0.6,0.0,0.4,Negative,980.0,people with coronavirus,1,people with coronavirus
+0.68,0.0,0.32,Negative,1196.0,coronavirus caller tune,1,coronavirus caller tune
+0.55,0.0,0.45,Negative,892.0,jonathan swan,0,jonathan swan
+0.57,0.0,0.43,Negative,888.0,squidward,0,squidward
+0.44,0.0,0.56,Positive,951.0,indian tv shows,0,indian tv shows
+0.35,0.0,0.65,Positive,26.0,national broadcast network nbn ,0,national broadcast network (nbn)
+0.38,0.0,0.62,Positive,804.0,kitchen,0,kitchen
+0.23,0.0,0.77,Positive,878.0,quarante,1,quarante
+0.58,0.0,0.42,Negative,903.0,chinese exchange students,1,chinese exchange students
+0.76,0.0,0.24,Negative,895.0,british government,0,british government
+0.41,0.0,0.59,Positive,934.0,memers,0,memers
+0.44,0.0,0.56,Positive,865.0,stress,0,stress
+0.55,0.0,0.45,Negative,907.0,pawn stars,0,pawn stars
+0.56,0.0,0.44,Negative,971.0,tissue papers,0,tissue papers
+0.69,0.0,0.31,Negative,666.0,hospital,0,hospital
+0.79,0.0,0.21,Negative,934.0,hillary mask,1,hillary mask
+0.76,0.0,0.24,Negative,935.0,saddam hussein,0,saddam hussein
+0.59,0.0,0.41,Negative,946.0,chest tightness,0,chest tightness
+0.3,0.0,0.7,Positive,678.0,friend,0,friend
+0.67,0.0,0.33,Negative,955.0,contact avoidance,0,contact avoidance
+0.47,0.0,0.53,Positive,728.0,stock market,0,stock market
+0.58,0.0,0.42,Negative,816.0,emmanuel macron,0,emmanuel macron
+0.76,0.0,0.24,Negative,547.0,donald trump,0,donald trump
+0.84,0.0,0.16,Negative,955.0,antivaxxers,1,antivaxxers
+0.27,0.0,0.73,Positive,896.0,game of thrones,0,game of thrones
+0.31,0.0,0.69,Positive,833.0,microsoft meeting,0,microsoft meeting
+0.49,0.0,0.51,Positive,778.0,germany,0,germany
+0.86,0.0,0.14,Negative,729.0,racist,0,racist
+0.55,0.0,0.45,Negative,1157.0,gas mask,1,gas mask
+0.43,0.0,0.57,Positive,1172.0,coronavirus memes,1,coronavirus memes
+0.43,0.0,0.57,Positive,839.0,hot water,0,hot water
+0.48,0.0,0.52,Positive,914.0,cat meme,0,cat meme
+0.83,0.0,0.17,Negative,880.0,globalist elites,0,globalist elites
+0.53,0.0,0.47,Negative,931.0,construction workers,0,construction workers
+0.64,0.0,0.36,Negative,847.0,corona test,1,corona test
+0.53,0.0,0.47,Negative,949.0,plungers,0,plungers
+0.35,0.0,0.65,Positive,902.0,allah girls,0,
+0.37,0.0,0.63,Positive,896.0,captain america,0,captain america
+0.5,0.0,0.5,Negative,923.0,the simpson's,0,the simpson's
+0.74,0.0,0.26,Negative,727.0,broke,0,broke
+0.71,0.0,0.29,Negative,85.0,guy eating bat soup in china,1,guy eating bat soup in china
+0.67,0.0,0.33,Negative,724.0,reporter,0,reporter
+0.29,0.0,0.71,Positive,103.0,onnline school,0,onnline school
+0.75,0.0,0.25,Negative,878.0,immigrants,0,immigrants
+0.35,0.0,0.65,Positive,945.0,chinese food,1,chinese food
+0.54,0.0,0.46,Negative,768.0,barack obama,0,barack obama
+0.43,0.0,0.57,Positive,855.0,salad,0,salad
+0.49,0.0,0.51,Positive,914.0,indian,0,indian
+0.39,0.0,0.61,Positive,898.0,spiderman,0,spiderman
+0.55,0.0,0.45,Negative,935.0,covid19 patient,1,covid19 patient
+0.85,0.0,0.15,Negative,33.0,great old party (gop),0,great old party (gop)
+0.47,0.0,0.53,Positive,666.0,church,0,church
+0.47,0.0,0.53,Positive,931.0,human civilisation,0,human civilisation
+0.83,0.0,0.17,Negative,951.0,chain link fence,0,chain link fence
+0.65,0.0,0.35,Negative,873.0,staff meetings,0,staff meetings
+0.35,0.0,0.65,Positive,878.0,indonesian,0,indonesian
+0.51,0.0,0.49,Negative,263.0,earth,0,earth
+0.16,0.0,0.84,Positive,899.0,jewellery,0,jewellery
+0.46,0.0,0.54,Positive,866.0,bartenders,0,bartenders
+0.73,0.0,0.27,Negative,369.0,covid vaccine,1,covid vaccine
+0.34,0.0,0.66,Positive,949.0,jumanji,0,jumanji
+0.62,0.0,0.38,Negative,907.0,plane pilots,0,plane pilots
+0.77,0.0,0.23,Negative,645.0,outbreak,0,outbreak
+0.51,0.0,0.49,Negative,681.0,jobs,0,jobs
+0.34,0.0,0.66,Positive,939.0,fiji,0,fiji
+0.66,0.0,0.34,Negative,851.0,us president,0,us president
+0.7,0.0,0.3,Negative,838.0,government employees,0,government employees
+0.64,0.0,0.36,Negative,822.0,amit shah,0,amit shah
+0.5,0.0,0.5,Positive,933.0,divorce lawyers,0,divorce lawyers
+0.37,0.0,0.63,Positive,951.0,toiletries,0,toiletries
+0.38,0.0,0.62,Positive,842.0,minnesota,0,minnesota
+0.4,0.0,0.6,Positive,913.0,eminem,0,eminem
+0.86,0.0,0.14,Negative,72.0,people complaining about covid 19 quarantine,1,people complaining about covid 19 quarantine
+0.75,0.0,0.25,Negative,179.0,bowling alley shoe spray,0,bowling alley shoe spray
+0.49,0.0,0.51,Positive,689.0,new disease,0,new disease
+0.54,0.0,0.46,Negative,860.0,professor,0,professor
+0.45,0.0,0.55,Positive,845.0,people all over the world,0,people all over the world
+0.62,0.0,0.38,Negative,844.0,penis,0,penis
+0.81,0.0,0.19,Negative,928.0,elected official,0,elected official
+0.46,0.0,0.54,Positive,13.0,lei meng yan,0,
+0.59,0.0,0.41,Negative,898.0,pay check,0,pay check
+0.41,0.0,0.59,Positive,838.0,soup,0,soup
+0.49,0.0,0.51,Positive,845.0,lawrence wong,0,lawrence wong
+0.38,0.0,0.62,Positive,672.0,assignments,0,assignments
+0.71,0.0,0.29,Negative,940.0,karens,0,karens
+0.27,0.0,0.73,Positive,867.0,painters,0,painters
+0.54,0.0,0.46,Negative,863.0,us navy,0,us navy
+0.59,0.0,0.41,Negative,979.0,coronavirus vaccine,1,coronavirus vaccine
+0.73,0.0,0.27,Negative,401.0,citizens,0,citizens
+0.35,0.0,0.65,Positive,920.0,hip,0,hip
+0.49,0.0,0.51,Positive,906.0,andy,0,andy
+0.53,0.0,0.47,Negative,60.0,norton antivirus mask,1,norton antivirus mask
+0.63,0.0,0.37,Negative,947.0,social distancing day,0,social distancing day
+0.48,0.0,0.52,Positive,814.0,archeologists,0,archeologists
+0.44,0.0,0.56,Positive,569.0,spanish,0,spanish
+0.68,0.0,0.32,Negative,902.0,word health organisation,0,word health organisation
+0.52,0.0,0.48,Negative,884.0,sergio ramos,0,sergio ramos
+0.57,0.0,0.43,Negative,743.0,symptoms of coronavirus,1,symptoms of coronavirus
+0.26,0.0,0.74,Positive,905.0,houston astros,0,houston astros
+0.49,0.0,0.51,Positive,937.0,malaysians,0,malaysians
+0.63,0.0,0.37,Negative,665.0,admin,0,admin
+0.74,0.0,0.26,Negative,848.0,covid19 restrictions,1,covid19 restrictions
+0.74,0.0,0.26,Negative,943.0,ppe,0,ppe
+0.68,0.0,0.32,Negative,853.0,russia,0,russia
+0.71,0.0,0.29,Negative,817.0,washing hands,0,washing hands
+1.0,0.0,0.0,Negative,1.0,people at world health organisation,0,people at world health organisation
+0.08,0.0,0.92,Positive,747.0,project,0,project
+0.31,0.0,0.69,Positive,1064.0,part time job,0,part time job
+0.38,0.0,0.62,Positive,866.0,1945,0,1945
+0.6,0.0,0.4,Negative,168.0,norton antivirus antivirus,1,norton antivirus antivirus
+0.54,0.0,0.46,Negative,840.0,bee sting,0,bee sting
+0.67,0.0,0.33,Negative,772.0,klaus schwab,0,klaus schwab
+0.68,0.0,0.32,Negative,911.0,spanish flu,1,spanish flu
+0.57,0.0,0.43,Negative,937.0,suitcase,0,suitcase
+0.63,0.0,0.37,Negative,835.0,wuhan clan,1,wuhan clan
+0.43,0.0,0.57,Positive,904.0,wonder woman,0,wonder woman
+0.66,0.0,0.34,Negative,910.0,female nurse,0,female nurse
+0.68,0.0,0.32,Negative,495.0,public health,0,public health
+0.46,0.0,0.54,Positive,855.0,area 51,0,area 51
+0.3,0.0,0.7,Positive,684.0,homeschooling memes,0,homeschooling memes
+0.7,0.0,0.3,Negative,962.0,germs,0,germs
+0.39,0.0,0.61,Positive,850.0,hr managers,0,hr managers
+0.45,0.0,0.55,Positive,893.0,donut,0,donut
+0.49,0.0,0.51,Positive,898.0,patriot,0,patriot
+0.36,0.0,0.64,Positive,864.0,cooking,0,cooking
+0.47,0.0,0.53,Positive,948.0,mjolnir,0,mjolnir
+0.77,0.0,0.23,Negative,815.0,coronavirus publicist,1,coronavirus publicist
+0.35,0.0,0.65,Positive,605.0,japanese,0,japanese
+0.49,0.0,0.51,Positive,729.0,world health organisation (who),0,world health organisation (who)
+0.56,0.0,0.44,Negative,813.0,second wave of coronavirus,1,second wave of coronavirus
+0.3,0.0,0.7,Positive,839.0,team meeting,0,team meeting
+0.38,0.0,0.62,Positive,422.0,avian,0,avian
+0.93,0.0,0.07,Negative,68.0,right-wing,0,right-wing
+0.61,0.0,0.39,Negative,529.0,who,0,who
+0.5,0.0,0.5,Negative,20.0,centre of disease control (cdc),0,centre of disease control (cdc)
+0.58,0.0,0.42,Negative,918.0,flotus,0,flotus
+0.61,0.0,0.39,Negative,905.0,local health department,0,local health department
+0.46,0.0,0.54,Positive,671.0,national health service (nhs),0,national health service (nhs)
+0.22,0.0,0.78,Positive,933.0,grand baby,0,grand baby
+0.55,0.0,0.45,Negative,861.0,flood,0,flood
+0.7,0.0,0.3,Negative,784.0,bandits,0,bandits
+0.36,0.0,0.64,Positive,954.0,phd students,0,phd students
+0.7,0.0,0.3,Negative,968.0,assault rifle,0,assault rifle
+0.69,0.0,0.31,Negative,883.0,holocaust,0,holocaust
+0.47,0.0,0.53,Positive,897.0,time traveller,0,time traveller
+0.83,0.0,0.17,Negative,995.0,chinavirus,1,china virus
+0.34,0.0,0.66,Positive,923.0,tofu,0,tofu
+0.67,0.0,0.33,Negative,974.0,chickenpox parties,0,chickenpox parties
+0.49,0.0,0.51,Positive,847.0,bill & melinda gates foundation,1,bill & melinda gates foundation
+0.52,0.0,0.48,Negative,547.0,cities,0,cities
+0.53,0.0,0.47,Negative,775.0,narendra modi,0,narendra modi
+0.42,0.0,0.58,Positive,929.0,jason mamoa,0,jason mamoa
+0.5,0.0,0.5,Positive,938.0,erthquake,0,erthquake
+0.52,0.0,0.48,Negative,946.0,neighbour,0,neighbour
+0.29,0.0,0.71,Positive,271.0,hop scotch club,0,hop scotch club
+0.59,0.0,0.41,Negative,927.0,anti-virus,1,anti-virus
+0.63,0.0,0.37,Negative,419.0,wuhan coronavirus memes,1,wuhan coronavirus memes
+0.47,0.0,0.53,Positive,926.0,april fools day,0,
+0.36,0.0,0.64,Positive,951.0,guerrero street,0,guerrero street
+0.33,0.0,0.67,Positive,831.0,outfit,0,outfit
+0.88,0.0,0.12,Negative,757.0,trump mask,1,trump mask
+0.4,0.0,0.6,Positive,842.0,pornhub,0,pornhub
+0.61,0.0,0.39,Negative,881.0,phone,0,phone
+0.31,0.0,0.69,Positive,955.0,engineering students,0,engineering students
+0.56,0.0,0.44,Negative,596.0,office,0,office
+0.51,0.0,0.49,Negative,738.0,my plans,0,my plans
+0.89,0.0,0.11,Negative,654.0,grand old party gop ,0,grand old party (gop)
+0.42,0.0,0.58,Positive,919.0,ramayan,0,ramayan
+0.81,0.0,0.19,Negative,655.0,experimental covid vaccine,1,experimental covid vaccine
+0.37,0.0,0.63,Positive,937.0,vladi,0,vladi
+0.43,0.0,0.57,Positive,874.0,chinese restaurant,1,chinese restaurant
+0.77,0.0,0.23,Negative,939.0,comunist,0,comunist
+0.33,0.0,0.67,Positive,868.0,victoria secrets,0,victoria secrets
+0.79,0.0,0.21,Negative,808.0,h1n1,0,h1n1
+0.57,0.0,0.43,Negative,906.0,crude oil prices,0,crude oil prices
+0.87,0.0,0.13,Negative,962.0,trumpsters,0,trumpsters
+0.41,0.0,0.59,Positive,872.0,zookeepers,0,zookeepers
+0.71,0.0,0.29,Negative,930.0,lebanese government,0,lebanese government
+1.0,0.0,0.0,Negative,1.0,bowing alley shoe spray,0,bowing alley shoe spray
+0.59,0.0,0.41,Negative,756.0,face time,0,facetime
+0.62,0.0,0.38,Negative,937.0,travelling people,0,travelling people
+0.41,0.0,0.59,Positive,1018.0,spain,0,spain
+0.45,0.0,0.55,Positive,534.0,wuhan football team,1,wuhan football team
+0.53,0.0,0.47,Negative,560.0,women,0,women
+0.22,0.0,0.78,Positive,767.0,video chat,0,videochat
+0.55,0.0,0.45,Negative,33.0,john f kennedy,0,
+0.66,0.0,0.34,Negative,856.0,justin trudeau,0,justin trudeau
+0.6,0.0,0.4,Negative,944.0,home schooling,0,home schooling
+0.35,0.0,0.65,Positive,856.0,exam notes,0,exam notes
+0.51,0.0,0.49,Negative,534.0,governor andy beshear,0,governor andy beshear
+0.79,0.0,0.21,Negative,913.0,white guy,0,white guy
+0.57,0.0,0.43,Negative,920.0,cigarette,0,cigarette
+0.59,0.0,0.41,Negative,846.0,american crisis,0,american crisis
+0.74,0.0,0.26,Negative,867.0,public health experts,0,public health experts
+0.67,0.0,0.33,Negative,880.0,covid 20,1,covid 20
+0.45,0.0,0.55,Positive,928.0,ea sports,0,ea sports
+0.46,0.0,0.54,Positive,701.0,vladimir putin,0,vladimir putin
+0.69,0.0,0.31,Negative,609.0,doctors,0,doctors
+0.8,0.0,0.2,Negative,650.0,cnn,0,cnn
+0.42,0.0,0.58,Positive,427.0,long distance haircut,0,long distance haircut
+0.24,0.0,0.76,Positive,906.0,chicken chow mein,0,chicken chow mein
+0.79,0.0,0.21,Negative,688.0,protests,0,protests
+0.54,0.0,0.46,Negative,1074.0,coronavirus tip,1,coronavirus tip
+0.79,0.0,0.21,Negative,541.0,police,0,police
+0.58,0.0,0.42,Negative,887.0,thanos,0,thanos
+0.19,0.0,0.81,Positive,871.0,homeoffice,0,homeoffice
+0.6,0.0,0.4,Negative,20.0,denmark ,0,denmark
+0.46,0.0,0.54,Positive,945.0,ww3 memes,0,ww3 memes
+0.32,0.0,0.68,Positive,930.0,cardinals,0,cardinals
+0.32,0.0,0.68,Positive,703.0,recruiter,0,recruiter
+0.48,0.0,0.52,Positive,927.0,grandchildren,0,grandchildren
+0.21,0.0,0.79,Positive,962.0,fruit seed,0,fruit seed
+0.73,0.0,0.27,Negative,139.0,deanne lorraine,0,deanne lorraine
+0.73,0.0,0.27,Negative,736.0,deaths,0,deaths
+0.38,0.0,0.62,Positive,1229.0,work form home,0,work form home
+0.68,0.0,0.32,Negative,940.0,murders,0,murders
+0.72,0.0,0.28,Negative,474.0,stay home,0,stay home
+0.42,0.0,0.58,Positive,210.0,world health organization wo ,0,world health organization (wo)
+0.58,0.0,0.42,Negative,878.0,dentist,0,dentist
+0.57,0.0,0.43,Negative,1077.0,centers for disease control cdc ,0,centers for disease control (cdc)
+0.84,0.0,0.16,Negative,938.0,the guy who ate bat,0,the guy who ate bat
+0.45,0.0,0.55,Positive,801.0,working from home,0,working from home
+0.39,0.0,0.61,Positive,904.0,mink,0,mink
+0.33,0.0,0.67,Positive,782.0,netflix,0,netflix
+0.5,0.0,0.5,Negative,616.0,asian,0,asian
+0.73,0.0,0.27,Negative,961.0,virologists,1,virologists
+0.52,0.0,0.48,Negative,610.0,medicine,0,medicine
+0.55,0.0,0.45,Negative,933.0,pablo escobar,0,pablo escobar
+0.58,0.0,0.42,Negative,12.0,norwegian poker translator,0,norwegian poker translator
+0.55,0.0,0.45,Negative,902.0,batteries,0,batteries
+0.68,0.0,0.32,Negative,916.0,officers,0,officers
+0.87,0.0,0.13,Negative,1032.0,donald trumps staff,0,
+0.8,0.0,0.2,Negative,971.0,maga hats,0,maga hats
+0.58,0.0,0.42,Negative,753.0,clubs,0,clubs
+0.36,0.0,0.64,Positive,882.0,monica,0,monica
+0.56,0.0,0.44,Negative,710.0,bills,1,bills
+0.61,0.0,0.39,Negative,932.0,comapny,0,comapny
+0.43,0.0,0.57,Positive,900.0,thakur,0,thakur
+0.59,0.0,0.41,Negative,895.0,indians,0,indians
+0.88,0.0,0.12,Negative,8.0,india lockdown announcement,0,india lockdown announcement
+0.86,0.0,0.14,Negative,874.0,hunter biden,0,hunter biden
+0.57,0.0,0.43,Negative,826.0,travelling,0,travelling
+0.29,0.0,0.71,Positive,7.0,coronavrius meme,1,coronavrius meme
+0.51,0.0,0.49,Negative,867.0,travel plans,0,travel plans
+0.83,0.0,0.17,Negative,109.0,anri-vaxxers,1,anri-vaxxers
+0.35,0.0,0.65,Positive,753.0,miami,0,miami
+0.34,0.0,0.66,Positive,920.0,waldo,0,waldo
+0.62,0.0,0.38,Negative,871.0,neet,0,neet
+0.38,0.0,0.62,Positive,855.0,easter,0,easter
+0.78,0.0,0.22,Negative,300.0,pornhub execs,0,pornhub execs
+0.78,0.0,0.22,Negative,916.0,bat soup,0,bat soup
+0.25,0.0,0.75,Positive,884.0,halloween,0,halloween
+0.61,0.0,0.39,Negative,611.0,british,0,british
+0.51,0.0,0.49,Negative,880.0,fans,0,fans
+0.36,0.0,0.64,Positive,936.0,quarantine snack,1,quarantine snack
+0.48,0.0,0.52,Positive,740.0,marriage,0,marriage
+0.63,0.0,0.37,Negative,937.0,rest of the world,0,rest of the world
+0.34,0.0,0.66,Positive,816.0,john f. kennedy,0,john f. kennedy
+0.82,0.0,0.18,Negative,960.0,anti vax kid,1,
+0.36,0.0,0.64,Positive,851.0,dettol,0,dettol
+0.72,0.0,0.28,Negative,896.0,george bush,0,george bush
+0.61,0.0,0.39,Negative,866.0,kim jong un,0,kim jong un
+0.45,0.0,0.55,Positive,950.0,work at home mum,0,work at home mum
+0.19,0.0,0.81,Positive,1075.0,yoga at home,0,yoga at home
+0.16,0.0,0.84,Positive,712.0,wish com,0,
+0.66,0.0,0.34,Negative,921.0,tmz,0,tmz
+0.32,0.0,0.68,Positive,891.0,hair extensions,0,hair extensions
+0.3,0.0,0.7,Positive,1233.0,corona memes,1,corona memes
+0.31,0.0,0.69,Positive,971.0,lumberjacks,0,lumberjacks
+0.28,0.0,0.72,Positive,838.0,kakashi hatake,0,kakashi hatake
+0.54,0.0,0.46,Negative,545.0,canada,0,canada
+0.76,0.0,0.24,Negative,936.0,syphilis,0,syphilis
+0.65,0.0,0.35,Negative,942.0,londoners,0,londoners
+0.53,0.0,0.47,Negative,797.0,fridge,0,fridge
+0.38,0.0,0.62,Positive,529.0,online,0,online
+0.44,0.0,0.56,Positive,850.0,class of 2020,0,class of 2020
+0.64,0.0,0.36,Negative,953.0,psychiatrist,0,psychiatrist
+0.7,0.0,0.3,Negative,962.0,dry cough,0,dry cough
+0.84,0.0,0.16,Negative,548.0,obamist,0,obamist
+0.44,0.0,0.56,Positive,388.0,conf call,0,
+0.46,0.0,0.54,Positive,471.0,football,0,football
+0.6,0.0,0.4,Negative,911.0,italians,0,italians
+0.45,0.0,0.55,Positive,935.0,chinese food place,1,chinese food place
+0.21,0.0,0.79,Positive,929.0,destination weddings,0,destination weddings
+0.57,0.0,0.43,Negative,817.0,uber eats,0,uber eats
+0.73,0.0,0.27,Negative,873.0,virologist,1,virologist
+0.55,0.0,0.45,Negative,841.0,coornavirus,1,coornavirus
+0.83,0.0,0.17,Negative,958.0,qanon,0,qanon
+0.4,0.0,0.6,Positive,1151.0,long distance,0,long distance
+0.7,0.0,0.3,Negative,945.0,sanitizer companies,1,sanitizer companies
+0.65,0.0,0.35,Negative,702.0,teachers,0,teachers
+0.61,0.0,0.39,Negative,227.0,russian corona vaccines,1,russian corona vaccines
+0.51,0.0,0.49,Negative,936.0,stay at home moms,0,stay at home moms
+0.37,0.0,0.63,Positive,946.0,burgers,0,burgers
+0.52,0.0,0.48,Negative,941.0,hair cut,0,hair cut
+0.54,0.0,0.46,Negative,810.0,marriages,0,marriages
+0.81,0.0,0.19,Negative,725.0,socialist,0,socialist
+0.49,0.0,0.51,Positive,946.0,rope,0,rope
+0.31,0.0,0.69,Positive,888.0,sweaters,0,sweaters
+0.68,0.0,0.32,Negative,881.0,phone calls,0,phone calls
+0.68,0.0,0.32,Negative,937.0,fever infected people,0,fever infected people
+0.66,0.0,0.34,Negative,914.0,surgical mask,1,surgical mask
+0.69,0.0,0.31,Negative,826.0,social distancing,0,social distancing
+0.48,0.0,0.52,Positive,625.0,delhi,0,delhi
+0.59,0.0,0.41,Negative,938.0,family of 6 members,0,family of 6 members
+0.15,0.0,0.85,Positive,1139.0,ludo king,0,ludo king
+0.65,0.0,0.35,Negative,682.0,putin,0,putin
+0.39,0.0,0.61,Positive,859.0,introvert,0,introvert
+0.77,0.0,0.23,Negative,931.0,obama care,0,obama care
+0.35,0.0,0.65,Positive,923.0,michael jackson,0,michael jackson
+0.49,0.0,0.51,Positive,955.0,conf. call,0,conf. call
+0.73,0.0,0.27,Negative,942.0,mary franson,0,mary franson
+0.41,0.0,0.59,Positive,862.0,raiders,0,raiders
+0.43,0.0,0.57,Positive,815.0,cats,0,cats
+0.69,0.0,0.31,Negative,916.0,corporate,0,corporate
+0.61,0.0,0.39,Negative,902.0,face cover,0,face cover
+0.66,0.0,0.34,Negative,893.0,janta curfew,0,janta curfew
+0.63,0.0,0.37,Negative,918.0,feminism,0,feminism
+0.4,0.0,0.6,Positive,940.0,the hot chick,0,the hot chick
+0.83,0.0,0.17,Negative,469.0,gop,0,gop
+0.64,0.0,0.36,Negative,930.0,carol baskin,0,carol baskin
+0.38,0.0,0.62,Positive,969.0,golf,0,golf
+0.57,0.0,0.43,Negative,458.0,research,0,research
+0.56,0.0,0.44,Negative,896.0,darth vader,0,darth vader
+0.69,0.0,0.31,Negative,809.0,jonathan gruber,0,jonathan gruber
+0.53,0.0,0.47,Negative,872.0,human,0,human
+0.57,0.0,0.43,Negative,1207.0,chinese women,1,chinese women
+0.5,0.0,0.5,Negative,10.0,covid-19,1,covid-19
+0.41,0.0,0.59,Positive,818.0,birds,0,birds
+0.87,0.0,0.13,Negative,913.0,guy eating a bat,0,guy eating a bat
+0.6,0.0,0.4,Negative,911.0,patriotism,0,patriotism
+0.51,0.0,0.49,Negative,821.0,monitor,0,monitor
+0.6,0.0,0.4,Negative,803.0,britain,0,britain
+0.06,0.0,0.94,Positive,735.0,ultimate fighting championship ufc ,0,ultimate fighting championship (ufc)
+0.38,0.0,0.62,Positive,935.0,spirit halloween,0,spirit halloween
+0.78,0.0,0.22,Negative,1133.0,govt officials,0,govt officials
+0.31,0.0,0.69,Positive,863.0,indore,0,indore
+0.33,0.0,0.67,Positive,114.0,pana walter,0,pana walter
+0.63,0.0,0.37,Negative,873.0,cholera outbreak,0,cholera outbreak
+0.18,0.0,0.82,Positive,823.0,high five,0,high five
+0.53,0.0,0.47,Negative,941.0,elementary school teachers,0,elementary school teachers
+0.2,0.0,0.8,Positive,980.0,instagram,0,instagram
+0.67,0.0,0.33,Negative,840.0,corona graph,1,corona graph
+0.61,0.0,0.39,Negative,931.0,indian guy,0,indian guy
+0.23,0.0,0.77,Positive,614.0,tv,0,tv
+0.53,0.0,0.47,Negative,687.0,world war 2,0,world war 2
+0.52,0.0,0.48,Negative,1133.0,sock market,0,sock market
+0.33,0.0,0.67,Positive,897.0,kansas city,0,kansas city
+0.51,0.0,0.49,Negative,949.0,purell,0,purell
+0.57,0.0,0.43,Negative,772.0,climate change,0,climate change
+0.38,0.0,0.62,Positive,841.0,vodka,0,vodka
+0.74,0.0,0.26,Negative,846.0,uber/ola drivers,0,uber/ola drivers
+0.48,0.0,0.52,Positive,954.0,mona lisa,0,mona lisa
+0.43,0.0,0.57,Positive,822.0,orange county,0,orange county
+0.47,0.0,0.53,Positive,913.0,demon,0,demon
+0.75,0.0,0.25,Negative,811.0,health authorities,0,health authorities
+0.67,0.0,0.33,Negative,6.0,harshad malya,0,harshad malya
+0.62,0.0,0.38,Negative,895.0,press conference,0,press conference
+0.87,0.0,0.13,Negative,892.0,bioweapon lab,0,bioweapon lab
+0.4,0.0,0.6,Positive,953.0,horror movie,0,horror movie
+0.29,0.0,0.71,Positive,962.0,universal studios,0,universal studios
+0.5,0.0,0.5,Negative,927.0,casinos,0,casinos
+0.53,0.0,0.47,Negative,929.0,hair cuts,0,hair cuts
+0.84,0.0,0.16,Negative,874.0,riots,0,riots
+0.47,0.0,0.53,Positive,911.0,english teachers,0,english teachers
+0.46,0.0,0.54,Positive,947.0,human civilization,0,human civilization
+0.36,0.0,0.64,Positive,916.0,star wars,0,star wars
+0.81,0.0,0.19,Negative,768.0,election,0,election
+0.55,0.0,0.45,Negative,1089.0,virat kohli,0,virat kohli
+0.59,0.0,0.41,Negative,819.0,new yorkers,0,new yorkers
+0.8,0.0,0.2,Negative,10.0,people drinking bat soup in china,1,people drinking bat soup in china
+0.68,0.0,0.32,Negative,930.0,instagram thots,0,instagram thots
+0.19,0.0,0.81,Positive,926.0,fun spot,0,fun spot
+0.54,0.0,0.46,Negative,871.0,cremators,0,cremators
+0.51,0.0,0.49,Negative,1111.0,quaranteens,1,quaranteens
+0.4,0.0,0.6,Positive,203.0,wilson wilson jr.,0,wilson wilson jr.
+0.6,0.0,0.4,Negative,918.0,seal,0,seal
+0.45,0.0,0.55,Positive,841.0,des moines,0,des moines
+0.35,0.0,0.65,Positive,842.0,goa,0,goa
+0.55,0.0,0.45,Negative,781.0,gloves,0,gloves
+0.48,0.0,0.52,Positive,863.0,sydney,0,sydney
+0.73,0.0,0.27,Negative,757.0,conservative,0,conservative
+0.6,0.0,0.4,Negative,447.0,child,0,child
+0.43,0.0,0.57,Positive,788.0,usa,0,usa
+0.24,0.0,0.76,Positive,1091.0,microsoft teams,0,microsoft teams
+0.78,0.0,0.22,Negative,930.0,carbon tax,0,carbon tax
+0.3,0.0,0.7,Positive,873.0,1920,0,1920
+0.78,0.0,0.22,Negative,766.0,lockdown,0,lockdown
+0.45,0.0,0.55,Positive,777.0,potato,0,potato
+0.44,0.0,0.56,Positive,949.0,extraverts,0,extraverts
+0.54,0.0,0.46,Negative,819.0,soap,0,soap
+0.53,0.0,0.47,Negative,645.0,australia,0,australia
+0.83,0.0,0.17,Negative,1043.0,anti vaxxers parents,1,
+0.77,0.0,0.23,Negative,775.0,robbers,0,robbers
+0.48,0.0,0.52,Positive,900.0,time traveler,0,time traveler
+0.33,0.0,0.67,Positive,920.0,phillipine,1,phillipine
+0.12,0.0,0.88,Positive,8.0,shadong province,0,shadong province
+0.61,0.0,0.39,Negative,757.0,stay at home,0,stay at home
+0.72,0.0,0.28,Negative,932.0,quarantining,1,quarantining
+0.59,0.0,0.41,Negative,867.0,bank,0,bank
+0.28,0.0,0.72,Positive,924.0,blue jays,0,blue jays
+0.29,0.0,0.71,Positive,892.0,indian premiere league,0,indian premiere league
+0.36,0.0,0.64,Positive,877.0,amma,0,amma
+0.25,0.0,0.75,Positive,1052.0,anushka sharma,0,anushka sharma
+0.55,0.0,0.45,Negative,706.0,walmart,0,walmart
+0.5,0.0,0.5,Negative,832.0,people of up,0,people of up
+0.46,0.0,0.54,Positive,921.0,bran,0,bran
+0.35,0.0,0.65,Positive,656.0,horror,0,horror
+0.62,0.0,0.38,Negative,915.0,seaworld,0,seaworld
+0.74,0.0,0.26,Negative,626.0,h1n1 flu,1,h1n1 flu
+0.38,0.0,0.62,Positive,911.0,jeans,0,jeans
+0.78,0.0,0.22,Negative,882.0,racism,0,racism
+0.68,0.0,0.32,Negative,935.0,lebanese govt,0,lebanese govt
+0.55,0.0,0.45,Negative,882.0,jesus christ,0,jesus christ
+0.49,0.0,0.51,Positive,826.0,home alone,0,home alone
+0.48,0.0,0.52,Positive,939.0,grocery shop,0,grocery shop
+0.56,0.0,0.44,Negative,695.0,spanish people,0,spanish people
+0.54,0.0,0.46,Negative,860.0,angela merkel,0,angela merkel
+0.22,0.0,0.78,Positive,1033.0,arshad warsi,0,arshad warsi
+0.26,0.0,0.74,Positive,823.0,chinese new year,1,chinese new year
+0.38,0.0,0.62,Positive,925.0,vijaywada,0,vijaywada
+0.11,0.0,0.89,Positive,786.0,graduation,0,graduation
+0.58,0.0,0.42,Negative,959.0,rodents,0,rodents
+0.7,0.0,0.3,Negative,904.0,swiggy,0,swiggy
+0.31,0.0,0.69,Positive,918.0,skype,0,skype
+0.47,0.0,0.53,Positive,896.0,pewdiepie,0,pewdiepie
+0.42,0.0,0.58,Positive,859.0,lifeguards,0,lifeguards
+0.31,0.0,0.69,Positive,453.0,state bank of india (sbi),0,state bank of india (sbi)
+0.86,0.0,0.14,Negative,843.0,beijing biden,0,beijing biden
+0.61,0.0,0.39,Negative,583.0,scientists,0,scientists
+0.48,0.0,0.52,Positive,819.0,exams,0,exams
+0.42,0.0,0.58,Positive,928.0,girlfriends,0,girlfriends
+0.32,0.0,0.68,Positive,811.0,paris,0,paris
+0.49,0.0,0.51,Positive,904.0,bear grylls,0,bear grylls
+0.44,0.0,0.56,Positive,39.0,2020-04-01 00:00:00,0,2020-04-01 00:00:00
+0.74,0.0,0.26,Negative,924.0,joe biden,0,joe biden
+0.82,0.0,0.18,Negative,55.0,people eating live rats in china,1,people eating live rats in china
+0.04,0.0,0.96,Positive,760.0,glf news,0,glf news
+0.69,0.0,0.31,Negative,885.0,polio,0,polio
+0.78,0.0,0.22,Negative,939.0,taliban,0,taliban
+0.69,0.0,0.31,Negative,975.0,covid marshalls,1,covid marshalls
+0.73,0.0,0.27,Negative,1130.0,assassinations,0,assassinations
+0.43,0.0,0.57,Positive,813.0,pasta,0,pasta
+0.42,0.0,0.58,Positive,867.0,the whole world,0,the whole world
+0.36,0.0,0.64,Positive,891.0,warsaw,0,warsaw
+0.53,0.0,0.47,Negative,675.0,ticket,0,ticket
+0.5,0.0,0.5,Negative,822.0,meetings,0,meetings
+0.63,0.0,0.37,Negative,947.0,hairdressers,0,hairdressers
+0.71,0.0,0.29,Negative,912.0,hazmat suit,0,hazmat suit
+0.5,0.0,0.5,Negative,820.0,chinese student,1,chinese student
+0.5,0.0,0.5,Negative,24.0,asian-americans,0,asian-americans
+0.18,0.0,0.82,Positive,790.0,fashion,0,fashion
+0.86,0.0,0.14,Negative,1147.0,chinese outbreak,1,chinese outbreak
+0.71,0.0,0.29,Negative,941.0,campaign rallies,0,campaign rallies
+0.77,0.0,0.23,Negative,993.0,donald tump,0,donald tump
+0.67,0.0,0.33,Negative,923.0,jaws mayor,0,jaws mayor
+0.36,0.0,0.64,Positive,908.0,winnie the pooh,0,winnie the pooh
+0.61,0.0,0.39,Negative,862.0,auto rickshaw,0,auto rickshaw
+0.5,0.0,0.5,Negative,28.0,sports commentrators,0,sports commentrators
+0.18,0.0,0.82,Positive,728.0,beer,0,beer
+0.54,0.0,0.46,Negative,255.0,apocalypse,0,apocalypse
+0.52,0.0,0.48,Negative,796.0,walking dead,0,walking dead
+0.68,0.0,0.32,Negative,964.0,anglo americans,0,anglo americans
+0.25,0.0,0.75,Positive,1209.0,zoom video conferencing,0,zoom video conferencing
+0.77,0.0,0.23,Negative,905.0,american government,0,american government
+0.56,0.0,0.44,Negative,733.0,dog,0,dog
+0.33,0.0,0.67,Positive,920.0,hairstyle,0,hairstyle
+0.53,0.0,0.47,Negative,901.0,bagel store,0,bagel store
+0.33,0.0,0.67,Positive,57.0,home alone 2 lost in new york,0,home alone 2: lost in new york
+0.23,0.0,0.77,Positive,661.0,moon,0,moon
+0.25,0.0,0.75,Positive,822.0,delhi daredevils dd ,0,delhi daredevils (dd)
+0.33,0.0,0.67,Positive,617.0,japan,0,japan
+0.27,0.0,0.73,Positive,736.0,urrak,0,urrak
+0.39,0.0,0.61,Positive,398.0,job,0,job
+0.15,0.0,0.85,Positive,1000.0,hotstar,0,hotstar
+0.51,0.0,0.49,Negative,868.0,covaxin,1,covaxin
+0.69,0.0,0.31,Negative,948.0,toilet papers,0,toilet papers
+0.7,0.0,0.3,Negative,554.0,other countries,0,other countries
+0.49,0.0,0.51,Positive,718.0,my job,0,my job
+0.7,0.0,0.3,Negative,1187.0,kardashians,0,kardashians
+0.7,0.0,0.3,Negative,749.0,emails,0,emails
+0.37,0.0,0.63,Positive,883.0,herald newspaper,0,herald newspaper
+0.76,0.0,0.24,Negative,947.0,chinese finger trap,1,chinese finger trap
+0.46,0.0,0.54,Positive,713.0,korea,0,korea
+0.42,0.0,0.58,Positive,585.0,south korea,0,south korea
+0.43,0.0,0.57,Positive,813.0,coronavirusnyc,1,coronavirusnyc
+0.52,0.0,0.48,Negative,852.0,stick,0,stick
+0.59,0.0,0.41,Negative,927.0,millenials,1,millenials
+0.77,0.0,0.23,Negative,897.0,quarantined,1,quarantined
+0.64,0.0,0.36,Negative,932.0,aliens,0,aliens
+0.32,0.0,0.68,Positive,927.0,humann,0,humann
+0.35,0.0,0.65,Positive,951.0,jehovah,0,jehovah
+0.18,0.0,0.82,Positive,866.0,coolie no 1,0,coolie no 1
+0.34,0.0,0.66,Positive,613.0,vegas,0,vegas
+0.87,0.0,0.13,Negative,953.0,cnn reporter,0,cnn reporter
+0.42,0.0,0.58,Positive,784.0,jones,0,jones
+0.76,0.0,0.24,Negative,967.0,hydrochloroquine,0,hydrochloroquine
+0.86,0.0,0.14,Negative,905.0,wrong mask,1,wrong mask
+0.47,0.0,0.53,Positive,1032.0,inbox,0,inbox
+0.5,0.0,0.5,Negative,892.0,costco,0,costco
+0.19,0.0,0.81,Positive,876.0,chancellor jones,0,chancellor jones
+0.82,0.0,0.18,Negative,955.0,main stream media,0,main stream media
+0.61,0.0,0.39,Negative,77.0,quarante province,1,quarante province
+0.55,0.0,0.45,Negative,885.0,coronavirus quarantine,1,coronavirus quarantine
+0.67,0.0,0.33,Negative,917.0,economy,0,economy
+0.6,0.0,0.4,Negative,701.0,zomato,0,zomato
+0.37,0.0,0.63,Positive,926.0,coffee cup,0,coffee cup
+0.49,0.0,0.51,Positive,284.0,work from home,0,work from home
+0.53,0.0,0.47,Negative,929.0,lisol,0,lisol
+0.43,0.0,0.57,Positive,926.0,jamie,0,jamie
+0.26,0.0,0.74,Positive,910.0,human papillomavirus,1,human papillomavirus
+0.72,0.0,0.28,Negative,433.0,americans,0,americans
+0.59,0.0,0.41,Negative,781.0,experts,0,experts
+0.48,0.0,0.52,Positive,927.0,james woods,0,james woods
+0.62,0.0,0.38,Negative,954.0,race car drivers,0,race car drivers
+0.59,0.0,0.41,Negative,907.0,emojis,0,emojis
+0.5,0.0,0.5,Negative,6.0,china. us,1,china. us
+0.57,0.0,0.43,Negative,638.0,kids,0,kids
+0.35,0.0,0.65,Positive,1104.0,harpic,0,harpic
+0.72,0.0,0.28,Negative,532.0,white house,0,white house
+0.47,0.0,0.53,Positive,924.0,genx,0,genx
+0.43,0.0,0.57,Positive,880.0,new zealand,0,new zealand
+0.4,0.0,0.6,Positive,721.0,career,0,career
+0.78,0.0,0.22,Negative,604.0,covid restrictions,1,covid restrictions
+0.73,0.0,0.27,Negative,921.0,common core math,0,common core math
+0.44,0.0,0.56,Positive,871.0,college,0,college
+0.61,0.0,0.39,Negative,964.0,coworker,0,coworker
+0.56,0.0,0.44,Negative,816.0,russian covid19 vaccine,1,russian covid19 vaccine
+0.63,0.0,0.37,Negative,914.0,social gatherings,0,social gatherings
+0.22,0.0,0.78,Positive,1070.0,people born in march april,0,
+0.21,0.0,0.79,Positive,923.0,tsingtao beer,0,tsingtao beer
+0.56,0.0,0.44,Negative,952.0,power school,0,power school
+0.79,0.0,0.21,Negative,839.0,chink virus,1,chink virus
+0.49,0.0,0.51,Positive,945.0,bidet,0,bidet
+0.5,0.0,0.5,Positive,1057.0,2020 06 01 00 00 00,0,
+0.64,0.0,0.36,Negative,623.0,isolation,0,isolation
+0.77,0.0,0.23,Negative,750.0,american people,0,american people
+0.44,0.0,0.56,Positive,927.0,diet coke,0,diet coke
+0.41,0.0,0.59,Positive,903.0,wilson,0,wilson
+0.67,0.0,0.33,Negative,728.0,immigration,0,immigration
+0.75,0.0,0.25,Negative,932.0,sbi employee,0,sbi employee
+0.34,0.0,0.66,Positive,803.0,tamilnadu,0,tamilnadu
+0.8,0.0,0.2,Negative,917.0,nancy pelosi,0,nancy pelosi
+0.69,0.0,0.31,Negative,958.0,h1n1 virus,1,h1n1 virus
+0.85,0.0,0.15,Negative,1191.0,grand old party (gop),0,grand old party (gop)
+0.19,0.0,0.81,Positive,930.0,emma charlotte,0,emma charlotte
+0.44,0.0,0.56,Positive,914.0,psa,0,psa
+0.32,0.0,0.68,Positive,817.0,cake,0,cake
+0.37,0.0,0.63,Positive,944.0,sunscreen,0,sunscreen
+0.43,0.0,0.57,Positive,884.0,kakashi,0,kakashi
+0.57,0.0,0.43,Negative,980.0,ibruprofen,0,ibruprofen
+0.43,0.0,0.57,Positive,832.0,parenting,0,parenting
+0.39,0.0,0.61,Positive,827.0,herald,0,herald
+0.37,0.0,0.63,Positive,829.0,cookies,0,cookies
+0.26,0.0,0.74,Positive,887.0,disneyland,0,disneyland
+0.11,0.0,0.89,Positive,929.0,social greetings,0,social greetings
+0.6,0.0,0.4,Negative,805.0,2nd wave of coronavirus,1,2nd wave of coronavirus
+0.84,0.0,0.16,Negative,756.0,democratic party,0,democratic party
+0.55,0.0,0.45,Negative,695.0,humanity,0,humanity
+0.48,0.0,0.52,Positive,406.0,work home,0,work home
+0.54,0.0,0.46,Negative,866.0,therapist,0,therapist
+0.77,0.0,0.23,Negative,920.0,shortage of toilet paper,0,shortage of toilet paper
+0.49,0.0,0.51,Positive,918.0,covid19 patients,1,covid19 patients
+0.5,0.0,0.5,Negative,835.0,dogs,0,dogs
+0.62,0.0,0.38,Negative,931.0,navy people,0,navy people
+0.69,0.0,0.31,Negative,491.0,country,0,country
+0.26,0.0,0.74,Positive,735.0,friday,0,friday
+0.49,0.0,0.51,Positive,720.0,nurse,0,nurse
+0.25,0.0,0.75,Positive,807.0,high temperatures,0,high temperatures
+0.44,0.0,0.56,Positive,873.0,kerala,0,kerala
+0.59,0.0,0.41,Negative,918.0,pre-covid,1,pre-covid
+0.45,0.0,0.55,Positive,937.0,quarantine day,1,quarantine day
+0.39,0.0,0.61,Positive,959.0,nhl,0,nhl
+0.7,0.0,0.3,Negative,878.0,robber,0,robber
+0.33,0.0,0.67,Positive,892.0,female leaders,0,female leaders
+0.65,0.0,0.35,Negative,459.0,face mask companies,1,face mask companies
+0.83,0.0,0.17,Negative,713.0,chinese coronavirus,1,chinese coronavirus
+0.65,0.0,0.35,Negative,423.0,people,0,people
+0.45,0.0,0.55,Positive,380.0,new york,0,new york
+0.7,0.0,0.3,Negative,1133.0,doanld trump,0,doanld trump
+0.4,0.0,0.6,Positive,916.0,black mirror,0,black mirror
+0.65,0.0,0.35,Negative,952.0,asian woman,0,asian woman
+0.59,0.0,0.41,Negative,894.0,carole baskin's husband,0,carole baskin's husband
+0.73,0.0,0.27,Negative,819.0,coronavirus meme,1,coronavirus meme
+0.44,0.0,0.56,Positive,928.0,the daily show,0,the daily show
+0.74,0.0,0.26,Negative,823.0,grand old party,0,grand old party
+0.65,0.0,0.35,Negative,946.0,smurfs,0,smurfs
+0.34,0.0,0.66,Positive,931.0,tier 2 cities,0,tier 2 cities
+1.0,0.0,0.0,Negative,1.0,sapnish influenza,1,sapnish influenza
+0.66,0.0,0.34,Negative,877.0,stomach,0,stomach
+0.85,0.0,0.15,Negative,961.0,covid deniers,1,covid deniers
+0.68,0.0,0.32,Negative,701.0,governor,0,governor
+0.59,0.0,0.41,Negative,834.0,france,0,france
+0.4,0.0,0.6,Positive,873.0,lagos,0,lagos
+0.5,0.0,0.5,Negative,903.0,air freshner,0,air freshner
+0.59,0.0,0.41,Negative,831.0,china's president,1,china's president
+0.36,0.0,0.64,Positive,694.0,family,0,family
+0.21,0.0,0.79,Positive,904.0,peter sarsgaard,0,peter sarsgaard
+0.77,0.0,0.23,Negative,789.0,covid infected people,1,covid infected people
+0.65,0.0,0.35,Negative,860.0,kim jong-un,0,kim jong-un
+0.41,0.0,0.59,Positive,99.0,jason memoa,0,jason memoa
+0.46,0.0,0.54,Positive,780.0,mom,0,mom
+0.79,0.0,0.21,Negative,941.0,hilary clinton,0,hilary clinton
+0.57,0.0,0.43,Negative,705.0,coronavirus patient,1,coronavirus patient
+0.44,0.0,0.56,Positive,932.0,bottoms,0,bottoms
+0.54,0.0,0.46,Negative,963.0,ponos,0,ponos
+0.27,0.0,0.73,Positive,833.0,astronaut,0,astronaut
+0.39,0.0,0.61,Positive,924.0,online meeting,0,online meeting
+0.35,0.0,0.65,Positive,774.0,shikhar dhawan,0,shikhar dhawan
+0.37,0.0,0.63,Positive,911.0,jenny,0,jenny
+0.77,0.0,0.23,Negative,795.0,pornhub executives,0,pornhub executives
+0.8,0.0,0.2,Negative,245.0,chian virus,1,chian virus
+0.29,0.0,0.71,Positive,838.0,queen,0,queen
+0.76,0.0,0.24,Negative,713.0,foreigners,0,foreigners
+0.8,0.0,0.2,Negative,781.0,russian vaccine,1,russian vaccine
+0.32,0.0,0.68,Positive,848.0,zoom meeting,0,zoom meeting
+0.53,0.0,0.47,Negative,363.0,work at home,0,work at home
+0.42,0.0,0.58,Positive,730.0,movie,0,movie
+0.24,0.0,0.76,Positive,841.0,simran,0,simran
+0.73,0.0,0.27,Negative,887.0,elizabeth warren,0,elizabeth warren
+0.45,0.0,0.55,Positive,851.0,hop scotch,0,hop scotch
+0.44,0.0,0.56,Positive,785.0,grandma,0,grandma
+0.29,0.0,0.71,Positive,857.0,halloween costume,0,halloween costume
+0.41,0.0,0.59,Positive,29.0,coronavirus book of memes,1,coronavirus book of memes
+0.69,0.0,0.31,Negative,917.0,world health organisation,0,world health organisation
+0.79,0.0,0.21,Negative,916.0,mainstream media,0,main stream media
+0.67,0.0,0.33,Negative,748.0,afghanistan,0,afghanistan
+0.71,0.0,0.29,Negative,939.0,made in china,1,made in china
+0.25,0.0,0.75,Positive,864.0,screen,0,screen
+0.59,0.0,0.41,Negative,964.0,teach at home,0,teach at home
+0.62,0.0,0.38,Negative,1058.0,other preventive measures,0,other preventive measures
+0.77,0.0,0.23,Negative,959.0,charlie kirk,0,charlie kirk
+0.78,0.0,0.22,Negative,421.0,virus,1,virus
+0.53,0.0,0.47,Negative,678.0,humans,0,humans
+0.82,0.0,0.18,Negative,961.0,mask companies,1,mask companies
+0.5,0.0,0.5,Positive,860.0,preventive measures,0,preventive measures
+0.42,0.0,0.58,Positive,930.0,darwin award,0,darwin award
+0.92,0.0,0.08,Negative,101.0,coughing chinese student,1,coughing chinese student
+0.27,0.0,0.73,Positive,932.0,twilight imperium,0,twilight imperium
+0.38,0.0,0.62,Positive,1193.0,national hockey league nhl ,0,national hockey league (nhl)
+0.31,0.0,0.69,Positive,825.0,baby,0,baby
+0.55,0.0,0.45,Negative,844.0,bubble,0,bubble
+0.41,0.0,0.59,Positive,969.0,smirnoff,0,smirnoff
+0.85,0.0,0.15,Negative,830.0,bill gates vaccine,1,bill gates vaccine
+0.46,0.0,0.54,Positive,951.0,roomate,0,roomate
+0.83,0.0,0.17,Negative,618.0,sick people,1,sick people
+0.25,0.0,0.75,Positive,815.0,las vegas,0,las vegas
+0.44,0.0,0.56,Positive,993.0,marine biologists,0,marine biologists
+0.81,0.0,0.19,Negative,908.0,american citizens,0,american citizens
+0.37,0.0,0.63,Positive,776.0,tea,0,tea
+0.61,0.0,0.39,Negative,838.0,left,0,left
+0.63,0.0,0.37,Negative,691.0,traffic,0,traffic
+0.61,0.0,0.39,Negative,943.0,quaranteen,1,quaranteen
+0.32,0.0,0.68,Positive,792.0,nature,0,nature
+0.46,0.0,0.54,Positive,926.0,lettuce,0,lettuce
+0.52,0.0,0.48,Negative,927.0,wrestlers,0,wrestlers
+0.26,0.0,0.74,Positive,727.0,thailand,0,thailand
+0.87,0.0,0.13,Negative,39.0,trump adminisatration,0,trump adminisatration
+0.51,0.0,0.49,Negative,1094.0,fyre festival,0,fyre festival
+0.21,0.0,0.79,Positive,764.0,real estate agent,0,real estate agent
+0.38,0.0,0.62,Positive,592.0,twitter,0,twitter
+0.33,0.0,0.67,Positive,859.0,nursing school,0,nursing school
+0.82,0.0,0.18,Negative,857.0,wuhanpneumonia,1,wuhanpneumonia
+0.41,0.0,0.59,Positive,681.0,hair,0,hair
+0.28,0.0,0.72,Positive,847.0,iceland,0,iceland
+0.49,0.0,0.51,Positive,831.0,manager,0,manager
+0.27,0.0,0.73,Positive,676.0,song,0,song
+0.6,0.0,0.4,Negative,936.0,covid29,1,covid29
+0.58,0.0,0.42,Negative,855.0,covid20,1,covid 20
+0.32,0.0,0.68,Positive,796.0,net,0,net
+0.39,0.0,0.61,Positive,787.0,pub,0,pub
+0.89,0.0,0.11,Negative,826.0,covidiots,1,covidiots
+0.0,0.0,1.0,Positive,1.0,corona safe beer,1,corona safe beer
+0.65,0.0,0.35,Negative,903.0,asians,0,asians
+0.58,0.0,0.42,Negative,860.0,ear pods,0,ear pods
+0.35,0.0,0.65,Positive,749.0,chennai,0,chennai
+0.87,0.0,0.13,Negative,783.0,anti-vaxxers,1,anti-vaxxers
+0.52,0.0,0.48,Negative,1221.0,stores in china,1,stores in china
+0.59,0.0,0.41,Negative,943.0,charmin,0,charmin
+0.39,0.0,0.61,Positive,889.0,thais,0,thais
+0.21,0.0,0.79,Positive,916.0,canvas,0,canvas
+0.4,0.0,0.6,Positive,868.0,drinks,0,drinks
+0.55,0.0,0.45,Negative,816.0,saudi arabia,0,saudi arabia
+0.58,0.0,0.42,Negative,906.0,human race,0,human race
+0.55,0.0,0.45,Negative,1167.0,ww3,0,ww3
+0.38,0.0,0.62,Positive,629.0,italy,0,italy
+0.82,0.0,0.18,Negative,583.0,swine flu,1,swine flu
+0.55,0.0,0.45,Negative,1182.0,india china standoff,1,
+0.55,0.0,0.45,Negative,1427.0,post covid,1,post covid
+0.67,0.0,0.33,Negative,929.0,bus,0,bus
+0.16,0.0,0.84,Positive,923.0,people you love,0,people you love
+0.47,0.0,0.53,Positive,868.0,valentines day,0,
+0.76,0.0,0.24,Negative,21.0,dr. bonnie henry,0,dr. bonnie henry
+0.42,0.0,0.58,Positive,907.0,april,0,april
+0.0,0.0,1.0,Positive,5.0,airport fashion 2019 vs 2020,0,airport fashion 2019 vs 2020
+0.65,0.0,0.35,Negative,858.0,front line workers,0,front line workers
+0.29,0.0,0.7,Positive,800.0,brooklyn,0,brooklyn
+0.2,0.0,0.8,Positive,901.0,govinda,0,govinda
+0.47,0.0,0.53,Positive,818.0,freedom,0,freedom
+0.63,0.0,0.37,Negative,925.0,national health service nhs ,0,national health service (nhs)
+0.44,0.0,0.56,Positive,499.0,travel,0,travel
+0.19,0.0,0.81,Positive,788.0,architecture,0,architecture
+0.52,0.0,0.48,Negative,955.0,google translate,0,google translate
+0.82,0.0,0.18,Negative,931.0,trump supporter,0,trump supporter
+0.2,0.0,0.8,Positive,1090.0,sonu sood,0,sonu sood
+0.53,0.0,0.47,Negative,978.0,snack hoarding,0,snack hoarding
+0.56,0.0,0.44,Negative,824.0,alcohol,0,alcohol
+0.46,0.0,0.54,Positive,859.0,ramdas athavale,0,ramdas athavale
+0.19,0.0,0.81,Positive,553.0,royal challangers bangalore,0,royal challangers bangalore
+0.61,0.0,0.39,Negative,416.0,people of delhi,0,people of delhi
+0.65,0.0,0.35,Negative,896.0,work emails,0,work emails
+0.52,0.0,0.48,Negative,791.0,weed,0,weed
+0.83,0.0,0.17,Negative,705.0,bill clinton,1,bill clinton
+0.48,0.0,0.52,Positive,928.0,mr stark,0,
+0.37,0.0,0.63,Positive,817.0,centres for disease control and prevention,0,centres for disease control and prevention
+0.49,0.0,0.51,Positive,917.0,dog groomer,0,dog groomer
+0.77,0.0,0.23,Negative,777.0,chinese government,1,chinese government
+0.37,0.0,0.63,Positive,829.0,abs,0,abs
+0.57,0.0,0.43,Negative,954.0,sanitising,0,sanitising
+0.28,0.0,0.72,Positive,815.0,christmas,0,christmas
+0.26,0.0,0.74,Positive,914.0,virtual prom,0,virtual prom
+0.6,0.0,0.4,Negative,860.0,america,0,america
+0.46,0.0,0.54,Positive,924.0,eggs,0,eggs
+0.53,0.0,0.47,Negative,857.0,angel moroni,0,angel moroni
+0.56,0.0,0.44,Negative,749.0,leaves,0,leaves
+0.91,0.0,0.09,Negative,847.0,donald trump's staff,0,donald trump's staff
+0.85,0.0,0.15,Negative,932.0,hiliary clinton,0,hiliary clinton
+0.29,0.0,0.71,Positive,867.0,sri lanka,0,sri lanka
+0.1,0.0,0.9,Positive,10.0,barb solberg,0,barb solberg
+0.57,0.0,0.43,Negative,760.0,andrew cuomo,0,andrew cuomo
+0.66,0.0,0.34,Negative,219.0,corona vius,1,corona vius
+0.39,0.0,0.61,Positive,515.0,coronavirus kits,1,coronavirus kits
+0.61,0.0,0.39,Negative,927.0,patient with fever,1,patient with fever
+0.53,0.0,0.47,Negative,795.0,ship,0,ship
+0.17,0.0,0.83,Positive,860.0,airport fashion,0,airport fashion
+0.49,0.0,0.51,Positive,558.0,students,0,students
+0.47,0.0,0.53,Positive,912.0,refrigerator,0,refrigerator
+0.57,0.0,0.43,Negative,915.0,wall,0,wall
+0.46,0.0,0.54,Positive,547.0,food,0,food
+0.2,0.0,0.8,Positive,499.0,tim killeen,1,tim killeen
+0.46,0.0,0.54,Positive,833.0,dad,0,dad
+0.24,0.0,0.76,Positive,477.0,amazon,0,amazon
+0.64,0.0,0.36,Negative,928.0,muhyiddin yassin,0,muhyiddin yassin
+1.0,0.0,0.0,Negative,8.0,anri vaxxers,1,
+0.76,0.0,0.24,Negative,947.0,bubonic plague,0,bubonic plague
+0.57,0.0,0.43,Negative,892.0,horse,0,horse
+0.55,0.0,0.45,Negative,541.0,journallists,0,journallists
+0.25,0.0,0.75,Positive,912.0,tshirt,0,tshirt
+0.63,0.0,0.37,Negative,481.0,world health organization who ,0,world health organization (who)
+0.45,0.0,0.55,Positive,693.0,africa,0,africa
+0.81,0.0,0.19,Negative,855.0,taliban fighters,0,taliban fighters
+0.42,0.0,0.58,Positive,130.0,world,0,world
+0.5,0.0,0.5,Positive,297.0,wars,0,wars
+0.43,0.0,0.57,Positive,852.0,russian vodka,0,russian vodka
+0.67,0.0,0.33,Negative,147.0,pneumoina,0,pneumoina
+0.79,0.0,0.21,Negative,792.0,hitler,0,hitler
+0.57,0.0,0.43,Negative,821.0,relatives,0,relatives
+0.48,0.0,0.52,Positive,817.0,plans,0,plans
+0.27,0.0,0.73,Positive,911.0,home alone 2: lost in new york,0,home alone 2: lost in new york
+0.59,0.0,0.41,Negative,1126.0,pete buttigieg,0,pete buttigieg
+0.83,0.0,0.17,Negative,617.0,bill gate's vaccine,1,bill gate's vaccine
+0.49,0.0,0.51,Positive,934.0,rahul,0,rahul
+0.6,0.0,0.4,Negative,761.0,employee,0,employee
+0.81,0.0,0.19,Negative,621.0,new swine flu like virus,1,new swine flu like virus
+0.39,0.0,0.61,Positive,920.0,peanut butter,0,peanut butter
+0.33,0.0,0.67,Positive,918.0,patrick mahomes,0,patrick mahomes
+0.55,0.0,0.45,Negative,970.0,pre corona,1,pre corona
+0.15,0.0,0.85,Positive,898.0,royal challengers bangalore rcb ,0,royal challengers bangalore (rcb)
+0.61,0.0,0.39,Negative,903.0,cough syrup,0,cough syrup
+0.74,0.0,0.26,Negative,777.0,uk government,0,uk government
+0.26,0.0,0.74,Positive,900.0,workout,0,workout
+0.43,0.0,0.57,Positive,824.0,meteorite,0,meteorite
+0.51,0.0,0.49,Negative,732.0,real life,0,real life
+0.23,0.0,0.77,Positive,945.0,research team,0,research team
+0.12,0.0,0.88,Positive,1075.0,realtor,0,realtor
+0.33,0.0,0.67,Positive,888.0,indian boys,0,indianboys
+0.79,0.0,0.21,Negative,638.0,bill gates,1,bill gates
+0.45,0.0,0.55,Positive,924.0,conference call,0,conference call
+0.67,0.0,0.33,Negative,660.0,human rights,0,human rights
+0.66,0.0,0.34,Negative,959.0,charmin commercial,0,charmin commercial
+0.92,0.0,0.08,Negative,747.0,trump virus,1,trump virus
+0.69,0.0,0.31,Negative,477.0,coronavirus lockdown,1,coronavirus lockdown
+0.41,0.0,0.59,Positive,554.0,homework,0,homework
+0.28,0.0,0.72,Positive,787.0,coronavirus testing kits,1,coronavirus testing kits
+0.54,0.0,0.46,Negative,878.0,zoom conference call,0,zoom conference call
+0.5,0.0,0.5,Positive,835.0,jaws,0,jaws
+0.51,0.0,0.49,Negative,887.0,hand wash,0,hand wash
+0.6,0.0,0.4,Negative,973.0,swede,0,swede
+0.71,0.0,0.29,Negative,951.0,stoplights,0,stoplights
+0.51,0.0,0.49,Negative,823.0,bat,0,bat
+0.47,0.0,0.53,Positive,938.0,works from home,0,works from home
+0.48,0.0,0.52,Positive,862.0,teammates,0,teammates
+0.46,0.0,0.54,Positive,945.0,t-rex,0,t-rex
+0.71,0.0,0.29,Negative,933.0,kim-jong un,0,kim-jong un
+0.76,0.0,0.24,Negative,902.0,covid facts,1,covid facts
+0.41,0.0,0.59,Positive,823.0,covid19 vaccine,1,covid19 vaccine
+0.54,0.0,0.46,Negative,754.0,centers for disease control (cdc),0,centers for disease control (cdc)
+0.72,0.0,0.28,Negative,820.0,government officials,0,government officials
+0.36,0.0,0.64,Positive,827.0,dallas,0,dallas
+0.18,0.0,0.82,Positive,900.0,homeschool project,0,homeschool project
+0.63,0.0,0.37,Negative,817.0,bushfire,0,bushfire
+0.7,0.0,0.3,Negative,810.0,cough,0,cough
+0.4,0.0,0.6,Positive,889.0,mother nature,0,mother nature
+0.29,0.0,0.71,Positive,934.0,instagram celeb,0,instagram celeb
+0.68,0.0,0.32,Negative,876.0,corona testing,1,corona testing
+0.37,0.0,0.63,Positive,166.0,indian council of medical research icmr ,0,indian council of medical research (icmr)
+0.55,0.0,0.45,Negative,558.0,centers for disease control and prevention,0,centers for disease control and prevention
+0.14,0.0,0.86,Positive,7.0,carl elemen,0,carl elemen
+0.11,0.0,0.89,Positive,880.0,chennai super kings csk ,0,chennai super kings (csk)
+0.31,0.0,0.69,Positive,866.0,2021,0,2021
+0.63,0.0,0.37,Negative,842.0,companies,0,companies
+0.49,0.0,0.51,Positive,880.0,face mask industry,1,face mask industry
+0.38,0.0,0.62,Positive,1086.0,coronavirus survivor,1,coronavirus survivor
+0.42,0.0,0.58,Positive,961.0,lashes,0,lashes
+0.42,0.0,0.58,Positive,408.0,sports,0,sports
+0.31,0.0,0.69,Positive,872.0,raavan,0,raavan
+0.48,0.0,0.52,Positive,280.0,centres for disease control cdc ,0,centres for disease control (cdc)
+0.38,0.0,0.62,Positive,90.0,coolie no. 1,0,coolie no. 1
+0.27,0.0,0.73,Positive,878.0,friday the 13th,0,friday the 13th
+0.39,0.0,0.61,Positive,1150.0,tiktok,0,tiktok
+0.78,0.0,0.22,Negative,36.0,carnival distaste,0,carnival distaste
+0.48,0.0,0.52,Positive,867.0,t rexes,0,
+0.48,0.0,0.52,Positive,923.0,railroad workers,0,railroad workers
+0.69,0.0,0.31,Negative,967.0,people with normal flu,1,people with normal flu
+0.6,0.0,0.4,Negative,713.0,coronavirus mask,1,coronavirus mask
+0.65,0.0,0.35,Negative,780.0,carole baskins husband,0,
+0.29,0.0,0.71,Positive,906.0,james wood,0,james wood
+0.74,0.0,0.26,Negative,653.0,brexit,0,brexit
+0.61,0.0,0.39,Negative,920.0,supermarket,0,supermarket
+0.37,0.0,0.63,Positive,892.0,fishing,0,fishing
+0.25,0.0,0.75,Positive,4.0,hyrdro pill,1,hyrdro pill
+0.47,0.0,0.53,Positive,598.0,cold,0,cold
+0.42,0.0,0.58,Positive,865.0,shirt,0,shirt
+0.68,0.0,0.32,Negative,864.0,asian people,0,asian people
+0.74,0.0,0.26,Negative,1172.0,coronavirus shutdown,1,coronavirus shutdown
+0.44,0.0,0.56,Positive,679.0,girls,0,girls
+0.25,0.0,0.75,Positive,944.0,jennifer aniston,0,jennifer aniston
+0.35,0.0,0.65,Positive,791.0,science stream,0,science stream
+0.21,0.0,0.79,Positive,798.0,kelis rogers,0,kelis rogers
+0.34,0.0,0.66,Positive,903.0,earthquake,0,earthquake
+0.71,0.0,0.29,Negative,919.0,ghetto,0,ghetto
+0.79,0.0,0.21,Negative,572.0,us government,0,us government
+0.67,0.0,0.33,Negative,921.0,tmz news,0,tmz news
+0.39,0.0,0.61,Positive,804.0,lady,0,lady
+0.58,0.0,0.42,Negative,1282.0,hydro pill,1,hydro pill
+0.59,0.0,0.41,Negative,925.0,crawls,0,crawls
+0.43,0.0,0.57,Positive,612.0,me,0,me
+0.64,0.0,0.36,Negative,908.0,covid scan,1,covid scan
+0.44,0.0,0.56,Positive,846.0,tamil nadu,0,tamilnadu
+0.53,0.0,0.47,Negative,427.0,saudi,0,saudi
+0.63,0.0,0.37,Negative,707.0,throat,0,throat
+0.54,0.0,0.46,Negative,935.0,tiwan,0,tiwan
+0.41,0.0,0.59,Positive,202.0,gorcery shop,0,gorcery shop
+0.85,0.0,0.15,Negative,766.0,chinese wuhan virus,1,chinese wuhan virus
+0.37,0.0,0.63,Positive,851.0,prom,0,prom
+0.33,0.0,0.67,Positive,892.0,lime,0,lime
+0.0,0.0,1.0,Positive,6.0,wu hound,0,
+0.29,0.0,0.71,Positive,896.0,snack,0,snack
+0.1,0.0,0.9,Positive,1050.0,online class,0,online class
+0.82,0.0,0.18,Negative,220.0,donald trump suporters,0,donald trump suporters
+0.65,0.0,0.35,Negative,659.0,staff,0,staff
+0.6,0.0,0.4,Negative,313.0,coronavirus ringtone,1,coronavirus ringtone
+0.52,0.0,0.48,Negative,861.0,anarchy,0,anarchy
+0.41,0.0,0.59,Positive,540.0,members,0,members
+0.82,0.0,0.18,Negative,801.0,cops,0,cops
+0.46,0.0,0.54,Positive,838.0,vladimir putin russian vaccine,1,vladimir putin russian vaccine
+0.51,0.0,0.49,Negative,747.0,restaurant,0,restaurant
+0.5,0.0,0.5,Negative,875.0,commerical,0,commerical
+0.49,0.0,0.51,Positive,947.0,europe,0,europe
+0.63,0.0,0.37,Negative,844.0,media house,0,media house
+0.22,0.0,0.78,Positive,883.0,robert b weide,0,
+0.04,0.0,0.96,Positive,805.0,national suicide,0,national suicide
+0.74,0.0,0.26,Negative,957.0,jounralists,0,jounralists
+0.45,0.0,0.55,Positive,823.0,johnny depp,0,johnny depp
+0.58,0.0,0.42,Negative,571.0,taiwan,0,taiwan
+0.75,0.0,0.25,Negative,814.0,us citizens,0,us citizens
+0.44,0.0,0.56,Positive,860.0,principal,0,principal
+0.38,0.0,0.62,Positive,927.0,jason voorhees,0,jason voorhees
+0.67,0.0,0.33,Negative,809.0,stimulus check,0,stimulus check
+0.33,0.0,0.67,Positive,804.0,rick astley,0,rick astley
+0.5,0.0,0.5,Positive,892.0,club team,0,club team
+0.57,0.0,0.43,Negative,886.0,cattle,0,cattle
+0.79,0.0,0.21,Negative,937.0,normal sick people,1,normal sick people
+0.77,0.0,0.23,Negative,808.0,drug dealers,0,drug dealers
+0.43,0.0,0.57,Positive,929.0,slippers,0,slippers
+0.37,0.0,0.63,Positive,813.0,sheldon,0,sheldon
+0.46,0.0,0.54,Positive,946.0,ramen noodles,0,ramen noodles
+0.3,0.0,0.7,Positive,942.0,kitten,0,kitten
+0.26,0.0,0.74,Positive,915.0,dalgona coffee,0,dalgona coffee
+0.57,0.0,0.43,Negative,685.0,english,0,english
+0.77,0.0,0.23,Negative,748.0,ebola,0,ebola
+0.6,0.0,0.4,Negative,822.0,weapons,0,weapons
+0.54,0.0,0.46,Negative,549.0,dr. anthony fauci,0,dr. anthony fauci
+0.68,0.0,0.32,Negative,861.0,flight,0,flight
+0.39,0.0,0.61,Positive,879.0,quentin tarantino,0,quentin tarantino
+0.78,0.0,0.22,Negative,904.0,china wuhan coronavirus,1,china wuhan coronavirus
+0.19,0.0,0.81,Positive,346.0,club penguin dance floor,0,club penguin dance floor
+0.72,0.0,0.28,Negative,372.0,brain damange,0,brain damange
+0.24,0.0,0.76,Positive,899.0,1820,0,1820
+0.23,0.0,0.77,Positive,925.0,migraine patients,1,migraine patients
+0.77,0.0,0.23,Negative,799.0,mass shooting,0,mass shooting
+0.6,0.0,0.4,Negative,864.0,arvind kejriwal,0,arvind kejriwal
+0.14,0.0,0.86,Positive,902.0,happy hour,0,happy hour
+0.61,0.0,0.39,Negative,437.0,melania trump,0,melania trump
+0.34,0.0,0.66,Positive,922.0,wilson wilson jr ,0,
+0.56,0.0,0.44,Negative,934.0,diseases,0,diseases
+0.37,0.0,0.63,Positive,923.0,mr. rogers,0,mr. rogers
+0.48,0.0,0.52,Positive,901.0,dinosaur,0,dinosaur
+0.44,0.0,0.56,Positive,902.0,liqour,0,liqour
+0.55,0.0,0.45,Negative,863.0,covd 19,0,covd 19
+0.18,0.0,0.82,Positive,228.0,traditional pos systems,0,traditional pos systems
+0.56,0.0,0.44,Negative,707.0,houses,0,houses
+0.37,0.0,0.63,Positive,856.0,hair salon,0,hair salon
+0.48,0.0,0.52,Positive,895.0,tentin quarantino,1,tentin quarantino
+0.7,0.0,0.3,Negative,860.0,bernie sanders,0,bernie sanders
+0.52,0.0,0.48,Negative,338.0,grocery,0,grocery
+0.61,0.0,0.39,Negative,966.0,plunger,0,plunger
+0.57,0.0,0.43,Negative,961.0,homeschooled,0,homeschooled
+0.7,0.0,0.3,Negative,829.0,self isolation,0,self isolation
+0.88,0.0,0.12,Negative,884.0,right wing,0,right wing
+0.43,0.0,0.57,Positive,800.0,son,0,son
+0.49,0.0,0.51,Positive,710.0,the earth,0,the earth
+0.65,0.0,0.35,Negative,914.0,homeless people,0,homeless people
+0.47,0.0,0.53,Positive,77.0,quarantine wine mixer,1,quarantine wine mixer
+0.39,0.0,0.61,Positive,801.0,logo,0,logo
+0.52,0.0,0.48,Negative,938.0,handshake,0,handshake
+0.56,0.0,0.44,Negative,859.0,zoom call,0,zoom call
+0.56,0.0,0.44,Negative,446.0,covid 19 vaccine,1,covid19 vaccine
+0.69,0.0,0.31,Negative,846.0,zika virus,1,zika virus
+0.76,0.0,0.24,Negative,835.0,government official,0,government official
+0.5,0.0,0.5,Negative,902.0,april fool's day,0,april fool's day
+0.44,0.0,0.56,Positive,877.0,homeschooling,0,home schooling
+0.82,0.0,0.18,Negative,866.0,chinese products,1,chinese products
+0.77,0.0,0.23,Negative,741.0,voters,0,voters
+0.88,0.0,0.12,Negative,962.0,trumptard,0,trumptard
+0.33,0.0,0.67,Positive,926.0,tulsa,0,tulsa
+0.36,0.0,0.64,Positive,943.0,valentine's day,0,valentine's day
+0.31,0.0,0.69,Positive,833.0,work from office,0,work from office
+0.37,0.0,0.63,Positive,946.0,rain,0,rain
+0.3,0.0,0.7,Positive,837.0,cornell medical school,0,cornell medical school
+0.77,0.0,0.23,Negative,800.0,rats,0,rats
+0.63,0.0,0.37,Negative,937.0,duct tape,0,duct tape
+0.44,0.0,0.56,Positive,857.0,organizations,0,organizations
+0.48,0.0,0.52,Positive,817.0,adam,0,adam
+0.88,0.0,0.12,Negative,819.0,ola drivers,0,ola drivers
+0.36,0.0,0.64,Positive,836.0,pastor,0,pastor
+0.41,0.0,0.59,Positive,795.0,veterinarians,0,veterinarians
+0.36,0.0,0.64,Positive,966.0,pint,0,pint
+0.53,0.0,0.47,Negative,863.0,work from other,0,work from other
+0.25,0.0,0.75,Positive,843.0,cbd,0,cbd
+0.36,0.0,0.64,Positive,928.0,momos,0,momos
+0.54,0.0,0.46,Negative,713.0,dna,0,dna
+0.31,0.0,0.69,Positive,824.0,nsf,0,nsf
+0.66,0.0,0.34,Negative,866.0,native americans,0,native americans
+0.53,0.0,0.47,Negative,453.0,school,0,school
+0.4,0.0,0.6,Positive,633.0,covid19 alerts,1,covid19 alerts
+0.64,0.0,0.36,Negative,585.0,death,0,death
+0.61,0.0,0.39,Negative,958.0,testing kit,0,testing kit
+0.77,0.0,0.23,Negative,909.0,hezbollah,0,hezbollah
+0.26,0.0,0.74,Positive,693.0,dhawan,0,dhawan
+0.6,0.0,0.4,Negative,695.0,coronavirus patients,1,coronavirus patients
+0.33,0.0,0.67,Positive,477.0,victoria's secret,0,victoria's secret
+0.43,0.0,0.57,Positive,906.0,air pollution,0,air pollution
+0.73,0.0,0.27,Negative,731.0,covid19 lockdown,1,covid19 lockdown
+0.75,0.0,0.25,Negative,677.0,wear a mask,1,wear a mask
+0.41,0.0,0.59,Positive,352.0,alcohol and high temperatures,0,alcohol and high temperatures
+0.64,0.0,0.36,Negative,829.0,lockown,0,lockown
+0.52,0.0,0.48,Negative,960.0,veterans hospitals,0,veterans hospitals
+0.47,0.0,0.53,Positive,578.0,zika,0,zika
+0.73,0.0,0.27,Negative,940.0,2 metre rule,0,2 metre rule
+0.67,0.0,0.33,Negative,765.0,jehovah's witnesses,0,jehovah's witnesses
+0.33,0.0,0.67,Positive,932.0,maths students,0,maths students
+0.37,0.0,0.63,Positive,921.0,chemistry teachers,0,chemistry teachers
+0.34,0.0,0.66,Positive,917.0,i4,0,i4
+0.46,0.0,0.54,Positive,946.0,zoo keepers,0,zookeepers
+0.55,0.0,0.45,Negative,952.0,tissue paper,0,tissue paper
+0.48,0.0,0.52,Positive,814.0,coronavirus prepper,1,coronavirus prepper
+0.45,0.0,0.55,Positive,524.0,2020,0,2020
+0.67,0.0,0.33,Negative,289.0,india lockdown execution,0,india lockdown execution
+0.0,0.0,1.0,Positive,2.0,royal challengers bangalore (rcb),0,royal challengers bangalore (rcb)
+0.47,0.0,0.53,Positive,1117.0,work remotely,0,work remotely
+0.41,0.0,0.59,Positive,860.0,pizza,0,pizza
+0.77,0.0,0.23,Negative,874.0,hong kong protestors,0,hong kong protestors
+0.41,0.0,0.59,Positive,931.0,exam,0,exam
+0.64,0.0,0.36,Negative,809.0,officer,0,officer
+0.73,0.0,0.27,Negative,934.0,speeding tickets,0,speeding tickets
+0.41,0.0,0.59,Positive,833.0,the glen,0,the glen
+0.47,0.0,0.53,Positive,773.0,texas,0,texas
+0.5,0.0,0.5,Positive,284.0,sanitizer,1,sanitizer
+0.67,0.0,0.33,Negative,935.0,contruction workers,0,contruction workers
+0.62,0.0,0.38,Negative,830.0,office workers,0,office workers
+0.54,0.0,0.46,Negative,249.0,hallunications,0,hallunications
+0.58,0.0,0.42,Negative,965.0,dph,0,dph
+0.88,0.0,0.12,Negative,935.0,republicans,0,republicans
+0.37,0.0,0.63,Positive,859.0,halloween mask,1,halloween mask
+0.51,0.0,0.49,Negative,573.0,joe,0,joe
+0.33,0.0,0.67,Positive,829.0,pets,0,pets
+0.35,0.0,0.65,Positive,794.0,video call,0,video call
+0.77,0.0,0.23,Negative,1079.0,whistleblower,0,whistleblower
+0.35,0.0,0.65,Positive,874.0,mitochondria,0,mitochondria
+0.64,0.0,0.36,Negative,924.0,online schools,0,online schools
+0.78,0.0,0.22,Negative,965.0,nixon mask,1,nixon mask
+0.67,0.0,0.33,Negative,712.0,health care workers,0,healthcare workers
+0.31,0.0,0.69,Positive,944.0,umar akmal,0,umar akmal
+0.59,0.0,0.41,Negative,952.0,indian parents,0,indian parents
+0.43,0.0,0.57,Positive,917.0,vicks vaporub,0,vicksvaporub
+0.71,0.0,0.29,Negative,933.0,flu infected people,1,flu infected people
+0.63,0.0,0.37,Negative,918.0,slavs,0,slavs
+0.3,0.0,0.7,Positive,917.0,fist bump,0,fist bump
+0.37,0.0,0.63,Positive,799.0,disinfectant spray,1,disinfectant spray
+0.64,0.0,0.36,Negative,11.0,wuhan virus memes,1,wuhan virus memes
+0.48,0.0,0.52,Positive,811.0,picture,0,picture
+0.79,0.0,0.21,Negative,799.0,politicians,0,politicians
+0.32,0.0,0.68,Positive,930.0,gobi manchurian,0,gobi manchurian
+0.36,0.0,0.64,Positive,937.0,linda,0,linda
+0.5,0.0,0.5,Positive,852.0,autism,0,autism
+0.51,0.0,0.49,Negative,903.0,ski mask,1,ski mask
+0.82,0.0,0.18,Negative,577.0,republican,0,republican
+0.87,0.0,0.13,Negative,637.0,democrats,0,democrats
+0.85,0.0,0.15,Negative,934.0,antivaxxer,1,antivaxxer
+0.74,0.0,0.26,Negative,903.0,bank robbers,0,bank robbers
+0.76,0.0,0.24,Negative,675.0,governments,0,governments
+0.74,0.0,0.26,Negative,548.0,bonnie henry,0,bonnie henry
+0.31,0.0,0.69,Positive,818.0,youtube,0,youtube
+0.83,0.0,0.17,Negative,789.0,chinese communist party,1,chinese communist party
+0.32,0.0,0.68,Positive,933.0,robert pattinson,0,robert pattinson
+0.44,0.0,0.56,Positive,935.0,socks,0,socks
+0.56,0.0,0.44,Negative,904.0,firemen,0,firemen
+0.76,0.0,0.24,Negative,908.0,osama bin laden,0,osama bin laden
+0.45,0.0,0.55,Positive,1038.0,skype meeting,0,skype meeting
+0.38,0.0,0.62,Positive,963.0,joey,0,joey
+0.47,0.0,0.53,Positive,865.0,joe exotic,0,joe exotic
+0.85,0.0,0.15,Negative,976.0,brexit mandates,0,brexit mandates
+0.48,0.0,0.52,Positive,907.0,trevor noah,0,trevor noah
+0.41,0.0,0.59,Positive,935.0,facetime,0,facetime
+0.28,0.0,0.72,Positive,764.0,boys,0,boys
+0.8,0.0,0.2,Negative,891.0,coughing,0,coughing
+0.29,0.0,0.71,Positive,861.0,1944,0,1944
+0.6,0.0,0.4,Negative,932.0,internet explorer,0,internet explorer
+0.39,0.0,0.61,Positive,820.0,handwash,0,hand wash
+0.74,0.0,0.26,Negative,895.0,herpes,0,herpes
+0.27,0.0,0.73,Positive,879.0,architects,0,architects
+0.55,0.0,0.45,Negative,942.0,people of spain,0,people of spain
+0.69,0.0,0.31,Negative,682.0,viruses,1,viruses
+0.28,0.0,0.72,Positive,829.0,deskphone,0,deskphone
+0.54,0.0,0.46,Negative,928.0,rubber gloves,0,rubber gloves
+0.87,0.0,0.13,Negative,135.0,guy who ate bat,0,guy who ate bat
+0.51,0.0,0.49,Negative,922.0,jared leto,0,jared leto
+0.68,0.0,0.32,Negative,794.0,states,0,states
+0.68,0.0,0.32,Negative,776.0,corona virus,1,corona virus
+0.59,0.0,0.41,Negative,968.0,sahms,0,sahms
+0.39,0.0,0.61,Positive,826.0,corona kapoor,1,corona kapoor
+0.7,0.0,0.3,Negative,545.0,flu vaccine,1,flu vaccine
+0.78,0.0,0.22,Negative,901.0,nancy peloci,0,nancy peloci
+0.7,0.0,0.3,Negative,873.0,zombie bite,0,zombie bite
+0.37,0.0,0.63,Positive,938.0,glass mask,1,glass mask
+0.37,0.0,0.63,Positive,894.0,avocado,0,avocado
+0.07,0.0,0.93,Positive,1105.0,videochat,0,videochat
+0.61,0.0,0.39,Negative,914.0,profs,0,profs
+0.61,0.0,0.39,Negative,782.0,the guardian,0,the guardian
+0.78,0.0,0.22,Negative,959.0,kung flu,1,kung flu
+0.32,0.0,0.68,Positive,848.0,human consciousness,0,human consciousness
+0.75,0.0,0.25,Negative,375.0,wuhan,1,wuhan
+0.67,0.0,0.33,Negative,890.0,wuhan virus updates,1,wuhan virus updates
+0.35,0.0,0.65,Positive,893.0,brethren,0,brethren
+0.27,0.0,0.73,Positive,278.0,chronic illness memes,1,chronic illness memes
+0.25,0.0,0.75,Positive,932.0,jane austen,0,jane austen
+0.39,0.0,0.61,Positive,850.0,turkmenistan,0,turkmenistan
+0.79,0.0,0.21,Negative,798.0,government,0,government
+0.7,0.0,0.3,Negative,897.0,valdimir putin,0,valdimir putin
+0.66,0.0,0.34,Negative,248.0,covid,1,covid
+0.53,0.0,0.47,Negative,19.0,dr grayfang,0,dr grayfang
+0.39,0.0,0.61,Positive,939.0,baby yoda,0,baby yoda
+0.42,0.0,0.57,Positive,960.0,reeses egg,0,
+0.46,0.0,0.54,Positive,1219.0,zoologists,0,zoologists
+0.63,0.0,0.37,Negative,923.0,people with normal fever,0,people with normal fever
+0.73,0.0,0.27,Negative,1214.0,italian mayor,0,italian mayor
+0.41,0.0,0.59,Positive,947.0,holding hands,0,holding hands
+0.5,0.0,0.5,Negative,14.0,u s immigration and customs enforcements ice ,0,
+0.69,0.0,0.31,Negative,953.0,us population,0,us population
+0.56,0.0,0.44,Negative,916.0,meme,0,meme
+0.43,0.0,0.57,Positive,203.0,centres for disease control (cdc),0,centres for disease control (cdc)
+0.41,0.0,0.59,Positive,678.0,john,0,john
+0.53,0.0,0.47,Negative,908.0,t rex,0,
+0.63,0.0,0.37,Negative,698.0,adults,0,adults
+0.68,0.0,0.32,Negative,629.0,maga,0,maga
+0.61,0.0,0.39,Negative,564.0,covid 19,1,covid19
+0.63,0.0,0.37,Negative,930.0,mayor,0,mayor
+0.48,0.0,0.52,Positive,895.0,stock markets,0,stock markets
+0.83,0.0,0.17,Negative,974.0,covididiots,1,covididiots
+0.4,0.0,0.6,Positive,853.0,andy beshear,0,andy beshear
+0.47,0.0,0.53,Positive,934.0,therapists,0,therapists
+0.32,0.0,0.68,Positive,973.0,cinema projectionist,0,cinema projectionist
+0.76,0.0,0.24,Negative,812.0,chinese communist party (ccp),1,chinese communist party (ccp)
+0.8,0.0,0.2,Negative,542.0,chinese communist party ccp ,1,chinese communist party (ccp)
+0.55,0.0,0.45,Negative,591.0,car,0,car
+0.54,0.0,0.46,Negative,80.0,mr rogers,0,
+0.23,0.0,0.77,Positive,990.0,miel con limon,0,miel con limon
+0.49,0.0,0.51,Positive,169.0,chinese restaurant mom,1,
+0.43,0.0,0.57,Positive,1079.0,global media,0,global media
+0.65,0.0,0.35,Negative,946.0,normal people,0,normal people
+0.56,0.0,0.44,Negative,934.0,covid19 quarantine,1,covid19 quarantine
+0.6,0.0,0.4,Negative,723.0,quarantine life,1,quarantine life
+0.39,0.0,0.61,Positive,818.0,bikini bodies,0,bikini bodies
+0.56,0.0,0.44,Negative,962.0,charger,0,charger
+0.61,0.0,0.39,Negative,903.0,usa china,1,
+0.42,0.0,0.58,Positive,872.0,asteroids,0,asteroids
+0.5,0.0,0.5,Negative,931.0,kamikaze,0,kamikaze
+0.72,0.0,0.28,Negative,563.0,covid death,1,covid death
+0.37,0.0,0.63,Positive,925.0,work from home memes,0,work from home memes
+0.43,0.0,0.57,Positive,448.0,online classes,0,online classes
+0.58,0.0,0.42,Negative,26.0,people who invented the covid19 vaccine,1,people who invented the covid19 vaccine
+0.24,0.0,0.76,Positive,807.0,indian council of medical research (icmr),0,indian council of medical research (icmr)
+0.42,0.0,0.58,Positive,917.0,gym,0,gym
+0.47,0.0,0.53,Positive,955.0,carona,1,carona
+0.46,0.0,0.54,Positive,811.0,zoom,0,zoom
+0.49,0.0,0.51,Positive,884.0,pre covid19,1,pre covid19
+0.55,0.0,0.45,Negative,486.0,news,0,news
+0.17,0.0,0.83,Positive,948.0,bitcoin era,0,bitcoin era
+0.41,0.0,0.59,Positive,537.0,2019,0,2019
+0.24,0.0,0.76,Positive,1070.0,earthlings,0,earthlings
+0.54,0.0,0.46,Negative,13.0,usa. china,1,usa. china
+0.75,0.0,0.25,Negative,830.0,coronavirus stockpile,1,coronavirus stockpile
+0.54,0.0,0.46,Negative,951.0,hairdresser,0,hairdresser
+0.63,0.0,0.37,Negative,877.0,bus stop,0,bus stop
+0.34,0.0,0.66,Positive,924.0,sunday,0,sunday
+0.45,0.0,0.55,Positive,646.0,work,0,work
+0.47,0.0,0.53,Positive,1117.0,trip to china,1,trip to china
+0.71,0.0,0.29,Negative,897.0,chelsea clinton,0,chelsea clinton
+0.48,0.0,0.52,Positive,851.0,denmark.,0,denmark.
+0.24,0.0,0.76,Positive,839.0,yunnan,0,yunnan
+0.52,0.0,0.48,Negative,917.0,airpods,0,airpods
+0.17,0.0,0.83,Positive,58.0,2020-06-01 00:00:00,0,2020-06-01 00:00:00
+0.36,0.0,0.64,Positive,912.0,amazon prime,0,amazon prime
+0.26,0.0,0.74,Positive,1158.0,hyderabad,0,hyderabad
+0.3,0.0,0.7,Positive,933.0,nadia,0,nadia
+0.87,0.0,0.13,Negative,856.0,anti-vaxxer,1,anti-vaxxer
+0.82,0.0,0.18,Negative,632.0,wuhan people,1,wuhan people
+0.34,0.0,0.66,Positive,823.0,mumbai indians mi ,0,mumbai indians (mi)
+0.59,0.0,0.41,Negative,894.0,air traffic,0,air traffic
+0.42,0.0,0.58,Positive,942.0,king lear,0,king lear
+0.68,0.0,0.32,Negative,1033.0,world war 3 ww3 ,0,world war 3 (ww3)
+0.18,0.0,0.82,Positive,853.0,varun d,0,varun d
+0.17,0.0,0.83,Positive,941.0,crochet,0,crochet
+0.33,0.0,0.67,Positive,894.0,winchester,0,winchester
+0.36,0.0,0.64,Positive,656.0,mexico,0,mexico
+0.2,0.0,0.8,Positive,835.0,work from home wfh ,0,work from home (wfh)
+0.81,0.0,0.19,Negative,720.0,communist,0,communist
+0.55,0.0,0.45,Negative,514.0,covid19,1,covid19
+0.65,0.0,0.35,Negative,946.0,social distance,0,social distance
+0.44,0.0,0.56,Positive,874.0,mobile phone,0,mobile phone
+0.64,0.0,0.36,Negative,876.0,lysol,0,lysol
+0.58,0.0,0.42,Negative,911.0,french disease,0,french disease
+0.6,0.0,0.4,Negative,561.0,science,0,science
+0.47,0.0,0.53,Positive,1031.0,chinas president,1,
+0.4,0.0,0.6,Positive,888.0,holiday trip,0,holiday trip
+0.55,0.0,0.45,Negative,746.0,homeschooled kids,0,homeschooled kids
+1.0,0.0,0.0,Negative,3.0,people with normal fever vs people with coronavirus,1,people with normal fever vs people with coronavirus
+0.46,0.0,0.54,Positive,558.0,facebook,0,facebook
+0.79,0.0,0.21,Negative,825.0,donald trump supporter,0,donald trump supporter
+0.55,0.0,0.46,Negative,800.0,world economy,0,world economy
+0.85,0.0,0.15,Negative,972.0,uber ola drivers,0,
+0.61,0.0,0.39,Negative,870.0,face,0,face
+0.4,0.0,0.6,Positive,973.0,adulthood,0,adulthood
+0.01,0.0,0.99,Positive,145.0,fun spot america theme parks,0,fun spot america theme parks
+0.85,0.0,0.15,Negative,881.0,republican figures,0,republican figures
+0.04,0.0,0.96,Positive,711.0,chennai super kings (csk),0,chennai super kings (csk)
+0.31,0.0,0.69,Positive,909.0,summer vacations,0,summer vacations
+0.61,0.0,0.39,Negative,917.0,post quarantine,1,post quarantine
+0.72,0.0,0.28,Negative,924.0,people with fever,0,people with fever
+0.43,0.0,0.57,Positive,512.0,everyone,0,everyone
+0.61,0.0,0.39,Negative,914.0,chinese students,1,chinese students
+0.61,0.0,0.39,Negative,645.0,public,0,public
+0.7,0.0,0.3,Negative,791.0,stock market crash,0,stock market crash
+0.87,0.0,0.13,Negative,912.0,muslimist,0,muslimist
+0.39,0.0,0.61,Positive,917.0,great wall of china,1,great wall of china
+0.76,0.0,0.24,Negative,841.0,deanna lorraine,0,deanna lorraine
+0.41,0.0,0.59,Positive,715.0,mobile,0,mobile
+0.1,0.0,0.9,Positive,146.0,paul laurence dunbar,0,paul laurence dunbar
+0.59,0.0,0.41,Negative,709.0,millennials,1,millennials
+0.57,0.0,0.43,Negative,889.0,asteroid,0,asteroid
+0.51,0.0,0.49,Negative,681.0,mother,0,mother
+0.48,0.0,0.52,Positive,746.0,trips,0,trips
+0.34,0.0,0.66,Positive,790.0,casino,0,casino
+0.63,0.0,0.37,Negative,419.0,countries,0,countries
+0.79,0.0,0.21,Negative,944.0,tara reade,0,tara reade
+0.55,0.0,0.45,Negative,858.0,pope,0,pope
+0.47,0.0,0.53,Positive,808.0,mumbai,0,mumbai
+0.34,0.0,0.66,Positive,920.0,jason momoa,0,jason momoa
+0.28,0.0,0.72,Positive,1069.0,coronavirus t shirt,1,
+0.46,0.0,0.54,Positive,902.0,tony stark,0,tony stark
+0.52,0.0,0.48,Negative,897.0,moderna,0,moderna
+0.65,0.0,0.35,Negative,944.0,german measles,0,german measles
+0.68,0.0,0.32,Negative,44.0,people complaining for covid19 quarantine,1,people complaining for covid19 quarantine
+0.83,0.0,0.17,Negative,851.0,suicide,0,suicide
+0.22,0.0,0.78,Positive,814.0,diy mask,1,diy mask
+1.0,0.0,0.0,Negative,1.0,anti-vaxxers parents,1,anti-vaxxers parents
+0.23,0.0,0.77,Positive,923.0,yoga,0,yoga
+0.83,0.0,0.17,Negative,943.0,ea employees,0,ea employees
+0.45,0.0,0.55,Positive,664.0,coronavirus prevention,1,coronavirus prevention
+0.61,0.0,0.39,Negative,947.0,bikers,0,bikers
+0.4,0.0,0.6,Positive,822.0,windows 10,0,windows 10
+0.68,0.0,0.32,Negative,672.0,pfizer,1,pfizer
+0.64,0.0,0.36,Negative,773.0,canadians,0,canadians
+0.53,0.0,0.47,Negative,851.0,homeschool teachers,0,homeschool teachers
+0.26,0.0,0.74,Positive,849.0,class of 2021,0,class of 2021
+0.15,0.0,0.85,Positive,826.0,travel bloggers,0,travel bloggers
+0.43,0.0,0.57,Positive,668.0,queen elizabeth,0,queen elizabeth
+0.58,0.0,0.42,Negative,803.0,beijing,0,beijing
+0.34,0.0,0.66,Positive,778.0,kentucky,0,kentucky
+0.56,0.0,0.44,Negative,808.0,japanese encephalitis virus,1,japanese encephalitis virus
+0.48,0.0,0.52,Positive,648.0,cat,0,cat
+0.8,0.0,0.2,Negative,725.0,wuhan coronavirus,1,wuhan coronavirus
+0.54,0.0,0.46,Negative,639.0,covid 19 cases,1,covid19 cases
+0.53,0.0,0.47,Negative,374.0,cdc centre for disease control ,0,cdc (centre for disease control)
+0.6,0.0,0.4,Negative,786.0,corporation,0,corporation
+0.41,0.0,0.59,Positive,956.0,quidditch matches,0,quidditch matches
+0.38,0.0,0.62,Positive,957.0,vicksvaporub,0,vicksvaporub
+0.66,0.0,0.34,Negative,905.0,dr bonnie henry,0,
+0.57,0.0,0.43,Negative,895.0,nigga,0,nigga
+0.41,0.0,0.59,Positive,874.0,mandalorian,0,mandalorian
+0.53,0.0,0.47,Negative,965.0,costco water,0,costco water
+0.55,0.0,0.45,Negative,715.0,scotland,0,scotland
+0.5,0.0,0.5,Negative,745.0,liberty,0,liberty
+0.52,0.0,0.48,Negative,904.0,spouse,0,spouse
+0.17,0.0,0.83,Positive,6.0,team and whiteboard,0,team and whiteboard
+0.43,0.0,0.57,Positive,747.0,homeschool,0,home school
+0.3,0.0,0.7,Positive,891.0,k l rahul,0,
+0.2,0.0,0.8,Positive,923.0,laughter,0,laughter
+0.33,0.0,0.67,Positive,922.0,shangai,0,shangai
+0.46,0.0,0.54,Positive,808.0,batman,0,batman
+0.42,0.0,0.58,Positive,927.0,arrange marriage,0,arrange marriage
+0.41,0.0,0.59,Positive,829.0,harry potter,0,harry potter
+0.31,0.0,0.69,Positive,891.0,indian matchmaking,0,indian matchmaking
+0.62,0.0,0.38,Negative,324.0,cdc (centre for disease control),0,cdc (centre for disease control)
+0.62,0.0,0.38,Negative,637.0,doctor,0,doctor
+0.33,0.0,0.67,Positive,804.0,rishabh pant,0,rishabh pant
+0.54,0.0,0.46,Negative,792.0,fishermen,0,fishermen
+0.57,0.0,0.43,Negative,983.0,uganda,0,uganda
+0.78,0.0,0.22,Negative,949.0,murder hornets,0,murder hornets
+0.92,0.0,0.08,Negative,12.0,anti-maskers,1,anti-maskers
+0.34,0.0,0.66,Positive,909.0,pumpkin,0,pumpkin
+0.65,0.0,0.35,Negative,947.0,international travel,0,international travel
+0.69,0.0,0.31,Negative,706.0,flu,1,flu
+0.51,0.0,0.49,Negative,860.0,roommate,0,roommate
+0.35,0.0,0.65,Positive,565.0,eve,0,eve
+0.64,0.0,0.36,Negative,904.0,march 2020,0,march 2020
+0.63,0.0,0.37,Negative,776.0,student loans,0,student loans
+0.71,0.0,0.29,Negative,28.0,anti vaxxer,1,antivaxxer
+0.5,0.0,0.5,Positive,894.0,archaelogists,0,archaelogists
+0.41,0.0,0.59,Positive,833.0,new teachers,0,new teachers
+0.52,0.0,0.48,Negative,827.0,lysol wipes,0,lysol wipes
+0.87,0.0,0.13,Negative,929.0,anti maskers,1,
+0.53,0.0,0.47,Negative,915.0,teaher,0,teaher
+0.64,0.0,0.36,Negative,693.0,president,0,president
+0.27,0.0,0.73,Positive,900.0,cgpa,0,cgpa
+0.85,0.0,0.15,Negative,905.0,experimental vaccine,1,experimental vaccine
+0.73,0.0,0.27,Negative,837.0,vaccine,1,vaccine
+0.7,0.0,0.3,Negative,788.0,plague,0,plague
+0.54,0.0,0.46,Negative,919.0,mask idea,1,mask idea
+0.33,0.0,0.67,Positive,677.0,tsingtao,0,tsingtao
+0.11,0.0,0.89,Positive,568.0,national hockey league (nhl),0,national hockey league (nhl)
+0.82,0.0,0.18,Negative,867.0,trump face mask,1,trump face mask
+0.34,0.0,0.66,Positive,913.0,robert downey jr ,0,
+0.4,0.0,0.6,Positive,906.0,carole baskin,0,carole baskin
+0.66,0.0,0.34,Negative,436.0,u.s. immigration and customs enforcement's (ice),0,u.s. immigration and customs enforcement's (ice)
+0.43,0.0,0.57,Positive,807.0,bed,0,bed
+0.47,0.0,0.53,Positive,551.0,wife,0,wife
+0.5,0.0,0.5,Positive,763.0,class,0,class
+0.76,0.0,0.24,Negative,630.0,north korea,0,north korea
+0.85,0.0,0.15,Negative,882.0,protestors,0,protestors
+0.64,0.0,0.36,Negative,818.0,schools,0,schools
+0.38,0.0,0.62,Positive,861.0,queen elizabeth ii,0,queen elizabeth ii
+0.35,0.0,0.65,Positive,1048.0,united nations (un),0,united nations (un)
+0.41,0.0,0.59,Positive,948.0,pda,0,pda
+0.25,0.0,0.75,Positive,4.0,world health organization (wo),0,world health organization (wo)
+0.79,0.0,0.21,Negative,852.0,mike pence,0,mike pence
+0.48,0.0,0.52,Positive,839.0,ipl fans,0,ipl fans
+0.0,0.0,1.0,Positive,1.0,wuhan virus alcohol,1,wuhan virus alcohol
+0.37,0.0,0.63,Positive,766.0,savings,0,savings
+0.42,0.0,0.58,Positive,1130.0,bangels,0,bangels
+0.41,0.0,0.59,Positive,959.0,sadler,0,sadler
+0.72,0.0,0.28,Negative,882.0,china us,1,
+0.54,0.0,0.46,Negative,911.0,principals,0,principals
+0.78,0.0,0.22,Negative,976.0,dudes on dating apps,0,dudes on dating apps
+0.22,0.0,0.78,Positive,938.0,drive in theatre,0,
+0.5,0.0,0.5,Positive,1197.0,wish.com,0,wish.com
+0.72,0.0,0.28,Negative,290.0,coronavirus officers,1,coronavirus officers
+0.14,0.0,0.86,Positive,645.0,yunnan province,0,yunnan province
+0.43,0.0,0.57,Positive,904.0,lone ranger,0,lone ranger
+0.21,0.0,0.79,Positive,634.0,dr sadler,0,
+0.5,0.0,0.5,Negative,628.0,husband,0,husband
+0.7,0.0,0.3,Negative,938.0,unemployement,0,unemployement
+0.43,0.0,0.57,Positive,900.0,facemask,1,facemask
+0.46,0.0,0.54,Positive,538.0,kansas,0,kansas
+0.57,0.0,0.43,Negative,824.0,tourist,0,tourist
+0.61,0.0,0.39,Negative,975.0,inners,0,inners
+0.43,0.0,0.57,Positive,786.0,among us,0,among us
+0.51,0.0,0.49,Negative,631.0,french,0,french
+0.2,0.0,0.8,Positive,1051.0,rita ora,0,rita ora
+0.75,0.0,0.25,Negative,332.0,vaccines,1,vaccines
+0.53,0.0,0.47,Negative,912.0,teacher,0,teacher
+0.41,0.0,0.59,Positive,730.0,currency,0,currency
+0.76,0.0,0.24,Negative,886.0,unvaccinated children,1,unvaccinated children
+0.84,0.0,0.16,Negative,923.0,antivaxx,1,antivaxx
+0.28,0.0,0.72,Positive,746.0,disney world,0,disney world
+0.68,0.0,0.32,Negative,903.0,election year,0,election year
+0.35,0.0,0.65,Positive,654.0,apple,0,apple
+0.74,0.0,0.26,Negative,945.0,seasonal flu,1,seasonal flu
+0.7,0.0,0.3,Negative,684.0,covid19 palliative warehouse,1,covid19 palliative warehouse
+0.73,0.0,0.27,Negative,791.0,labour,0,labour
+0.59,0.0,0.41,Negative,914.0,face mask,1,facemask
+0.62,0.0,0.38,Negative,524.0,press,0,press
+0.6,0.0,0.4,Negative,864.0,tinder,0,tinder
+0.27,0.0,0.73,Positive,909.0,nepal,0,nepal
+0.48,0.0,0.52,Positive,754.0,cancer,0,cancer
+0.43,0.0,0.57,Positive,961.0,extroverts,0,extroverts
+0.77,0.0,0.23,Negative,782.0,shutdown,0,shutdown
+0.31,0.0,0.69,Positive,829.0,santa claus,0,santa claus
+0.53,0.0,0.47,Negative,824.0,memes,0,memes
+0.36,0.0,0.64,Positive,804.0,beach,0,beach
+0.68,0.0,0.32,Negative,843.0,blood cough,0,blood cough
+0.38,0.0,0.62,Positive,40.0,k.l. rahul,0,k.l.rahul
+0.5,0.0,0.5,Positive,1038.0,world war 3,0,world war 3
+0.59,0.0,0.41,Negative,828.0,truck drivers,0,truck drivers
+0.56,0.0,0.44,Negative,938.0,wipers,0,wipers
+0.59,0.0,0.41,Negative,977.0,villain,1,villain
+0.68,0.0,0.32,Negative,944.0,plague inc,0,plague inc
+0.65,0.0,0.35,Negative,794.0,jill biden,1,jill biden
+0.59,0.0,0.41,Negative,1151.0,qassem soleimani,0,qassem soleimani
+0.63,0.0,0.37,Negative,619.0,pollution,0,pollution
+0.87,0.0,0.13,Negative,919.0,libtard,0,libtard
+0.62,0.0,0.38,Negative,934.0,ebola extra,0,ebola extra
+0.53,0.0,0.47,Negative,959.0,andy burnham,0,andy burnham
+0.6,0.0,0.4,Negative,861.0,anthony fauci,0,anthony fauci
+0.69,0.0,0.31,Negative,651.0,flights,0,flights
+0.57,0.0,0.43,Negative,824.0,jehovahs witnesses,0,
+0.56,0.0,0.44,Negative,747.0,orders,0,orders
+0.84,0.0,0.16,Negative,815.0,main stream media (msm),0,main stream media (msm)
+0.23,0.0,0.77,Positive,884.0,justin timberlake,0,justin timberlake
+0.24,0.0,0.76,Positive,882.0,mariah carey,0,mariah carey
+0.51,0.0,0.49,Negative,850.0,arranged marriage,0,arranged marriage
+0.51,0.0,0.49,Negative,934.0,work for home,0,work for home
+0.34,0.0,0.66,Positive,890.0,my friends,0,my friends
+0.62,0.0,0.38,Negative,273.0,the executioners,0,the executioners
+0.43,0.0,0.57,Positive,911.0,chicken,0,chicken
+0.61,0.0,0.39,Negative,851.0,bodies,0,bodies
+0.65,0.0,0.35,Negative,900.0,chicken pox,0,chicken pox
+0.63,0.0,0.37,Negative,821.0,jimmy carter,0,jimmy carter
+0.56,0.0,0.44,Negative,937.0,chuck norris,0,chuck norris
+0.44,0.0,0.56,Positive,877.0,tom hanks,0,tom hanks
+0.46,0.0,0.54,Positive,934.0,hermione,0,hermione
+0.65,0.0,0.35,Negative,937.0,professors,0,professors
+0.42,0.0,0.58,Positive,775.0,prime,0,prime
+0.45,0.0,0.55,Positive,865.0,russian scientists,0,russian scientists
+0.51,0.0,0.49,Negative,804.0,india,0,india
+0.43,0.0,0.57,Positive,841.0,royalty,0,royalty
+0.45,0.0,0.55,Positive,880.0,credit cards,0,credit cards
+0.26,0.0,0.74,Positive,930.0,flora,0,flora
+0.49,0.0,0.51,Positive,920.0,employed women,0,employed women
+0.88,0.0,0.12,Negative,825.0,main stream media msm ,0,main stream media (msm)
+0.32,0.0,0.68,Positive,922.0,shanghai,0,shanghai
+0.57,0.0,0.43,Negative,904.0,waiter,0,waiter
+0.93,0.0,0.07,Negative,121.0,idiots denying covid19,1,idiots denying covid19
+0.87,0.0,0.13,Negative,899.0,trump supporters,0,trump supporters
+0.63,0.0,0.37,Negative,836.0,people travelling in 2020,0,people travelling in 2020
+0.46,0.0,0.54,Positive,754.0,covid19 memes,1,covid19 memes
+0.43,0.0,0.57,Positive,870.0,ufc,0,ufc
+0.41,0.0,0.59,Positive,837.0,pope fransis,0,pope fransis
+0.58,0.0,0.42,Negative,729.0,anxiety,0,anxiety
+0.57,0.0,0.43,Negative,565.0,centre for disease control (cdc),0,centre for disease control (cdc)
+0.68,0.0,0.32,Negative,854.0,airports,0,airports
+0.39,0.0,0.61,Positive,922.0,toast,0,toast
+0.61,0.0,0.39,Negative,640.0,tony vs. khabib,0,tony vs. khabib
+0.75,0.0,0.25,Negative,1004.0,child sex trafficking,0,child sex trafficking
+0.56,0.0,0.44,Negative,888.0,miners,0,miners
+0.64,0.0,0.36,Negative,587.0,the wall,0,the wall
+0.69,0.0,0.31,Negative,906.0,bushfires,0,bushfires
+0.37,0.0,0.63,Positive,804.0,assignment,0,assignment
+0.55,0.0,0.45,Negative,651.0,social media,0,social media
+0.83,0.0,0.17,Negative,854.0,anitvaxxers,1,anitvaxxers
+0.55,0.0,0.45,Negative,881.0,corona,1,corona
+0.6,0.0,0.4,Negative,696.0,players,0,players
+0.46,0.0,0.54,Positive,763.0,orange,0,orange
+0.35,0.0,0.65,Positive,839.0,corona extra,1,corona extra
+0.47,0.0,0.53,Positive,835.0,map,0,map
+0.68,0.0,0.32,Negative,1147.0,greta thunberg,0,greta thunberg
+0.29,0.0,0.71,Positive,48.0,people born in march/ april,0,people born in march/april
+0.56,0.0,0.44,Negative,879.0,homemade mask,1,homemade mask
+0.48,0.0,0.52,Positive,896.0,starbucks,0,starbucks
+0.48,0.0,0.52,Positive,457.0,florida,0,florida
+0.71,0.0,0.29,Negative,799.0,quarantine,1,quarantine
+0.78,0.0,0.22,Negative,933.0,chinese dude,1,chinese dude
+0.39,0.0,0.61,Positive,874.0,ipl,0,ipl
+0.72,0.0,0.28,Negative,931.0,disinfectants,1,disinfectants
+0.64,0.0,0.36,Negative,937.0,qurantine,0,qurantine
+0.44,0.0,0.56,Positive,463.0,uk,0,uk
+0.45,0.0,0.55,Positive,678.0,google,0,google
+0.32,0.0,0.68,Positive,965.0,keanu reeves,0,keanu reeves
+0.46,0.0,0.54,Positive,912.0,debbie,0,debbie
+0.32,0.0,0.68,Positive,846.0,dholakpur,0,dholakpur
+0.49,0.0,0.51,Positive,895.0,goat,0,goat
+0.57,0.0,0.43,Negative,751.0,scottish,0,scottish
+0.45,0.0,0.55,Positive,772.0,times square,0,times square
+0.0,0.0,1.0,Positive,1.0,lukas  larae,0,lukas and larae
+0.23,0.0,0.77,Positive,936.0,salman khan,0,salman khan
+0.55,0.0,0.45,Negative,930.0,kid,0,kid
+0.34,0.0,0.66,Positive,792.0,cloud,0,cloud
+0.58,0.0,0.42,Negative,642.0,coronavirus pandemic,1,coronavirus pandemic
+0.32,0.0,0.68,Positive,928.0,heart,0,heart
+0.69,0.0,0.31,Negative,804.0,dr fauci,0,
+0.48,0.0,0.52,Positive,962.0,publix,0,publix
+0.8,0.0,0.2,Negative,941.0,wuhan flu,1,wuhan flu
+0.5,0.0,0.5,Negative,554.0,trade,0,trade
+0.48,0.0,0.52,Positive,880.0,bats,0,bats
+0.15,0.0,0.85,Positive,425.0,lngerie,0,lngerie
+0.74,0.0,0.26,Negative,928.0,hanta virus,1,hantavirus
+0.54,0.0,0.46,Negative,946.0,ppe kit,0,ppe kit
+0.7,0.0,0.3,Negative,944.0,covid memes,1,covid memes
+0.43,0.0,0.57,Positive,7.0,dr. fauci,0,dr. fauci
+0.53,0.0,0.47,Negative,838.0,karen,0,karen
+0.22,0.0,0.78,Positive,914.0,kelis,0,kelis
+0.42,0.0,0.58,Positive,758.0,pilot,0,pilot
+0.46,0.0,0.54,Positive,910.0,haircut,0,hair cut
+0.59,0.0,0.41,Negative,194.0,dr anthony fauci,0,
+0.5,0.0,0.5,Negative,2.0,carolyn goodman las vagas mayor,0,carolyn goodman (las vagas mayor)
+0.83,0.0,0.17,Negative,715.0,chinese virus,1,chinese virus
+0.64,0.0,0.36,Negative,591.0,queen elizabeth's son,0,queen elizabeth's son
+0.43,0.0,0.57,Positive,750.0,sky,0,sky
+0.37,0.0,0.63,Positive,579.0,coronavirus. t-shirt,1,coronavirus. t-shirt
+0.68,0.0,0.32,Negative,806.0,hydroxychloroquine,0,hydroxychloroquine
+0.62,0.0,0.38,Negative,790.0,billionaire,1,billionaire
+0.65,0.0,0.35,Negative,900.0,microchip,0,microchip
+0.58,0.0,0.42,Negative,850.0,hand sanitizer,1,hand sanitizer
+0.27,0.0,0.73,Positive,921.0,anthony adams,0,anthony adams
+0.53,0.0,0.47,Negative,719.0,hands,0,hands
+0.54,0.0,0.46,Negative,961.0,mexican flag,0,mexican flag
+0.53,0.0,0.47,Negative,1188.0,agra,0,agra
+0.37,0.0,0.63,Positive,847.0,no time to die,0,no time to die
+0.84,0.0,0.16,Negative,927.0,microscopic virus,1,microscopic virus
+0.49,0.0,0.51,Positive,774.0,neighbor,0,neighbor
+0.29,0.0,0.71,Positive,805.0,greenland,0,greenland
+0.52,0.0,0.48,Negative,835.0,student,0,student
+0.67,0.0,0.33,Negative,521.0,cdc,0,cdc
+0.61,0.0,0.39,Negative,904.0,bacteria,0,bacteria
+0.38,0.0,0.62,Positive,13.0,mexican druglord pablo escobar,0,mexican druglord pablo escobar
+0.31,0.0,0.69,Positive,785.0,chef,0,chef
+0.78,0.0,0.22,Negative,972.0,windmill cancer,1,windmill cancer
+0.34,0.0,0.66,Positive,931.0,bandana,0,bandana
+0.76,0.0,0.24,Negative,1220.0,great old party gop ,0,great old party (gop)
+0.26,0.0,0.74,Positive,515.0,indian chinese gobi manchurian,1,indian chinese gobi manchurian
+0.43,0.0,0.57,Positive,853.0,hand soap,0,hand soap
+0.62,0.0,0.38,Negative,831.0,parent,0,parent
+0.54,0.0,0.46,Negative,829.0,journalism,0,journalism
+0.73,0.0,0.27,Negative,904.0,ventilator,0,ventilator
+0.24,0.0,0.76,Positive,862.0,breitling watches,0,breitling watches
+0.69,0.0,0.31,Negative,944.0,amazon delivery guy,0,amazon delivery guy
+0.28,0.0,0.72,Positive,32.0,flexing in 2019 vs 2020,0,flexing in 2019 vs 2020
+0.76,0.0,0.24,Negative,736.0,boris johnson,0,boris johnson
+0.46,0.0,0.54,Positive,790.0,post corona,1,post corona
+0.65,0.0,0.35,Negative,581.0,iran,0,iran
+0.58,0.0,0.42,Negative,842.0,cholera,0,cholera
+0.45,0.0,0.55,Positive,902.0,icmr,0,icmr
+0.46,0.0,0.54,Positive,969.0,working at home,0,working at home
+0.39,0.0,0.61,Positive,947.0,reese's egg,0,reese's egg
+0.36,0.0,0.64,Positive,910.0,hobbies,0,hobbies
+0.65,0.0,0.35,Negative,969.0,chinese kid,1,chinese kid
+1.0,0.0,0.0,Negative,1.0,wuhan bio terror laboratory,1,wuhan bio terror laboratory
+0.5,0.0,0.5,Positive,885.0,kindergarten,0,kindergarten
+0.52,0.0,0.48,Negative,844.0,covid19 cases,1,covid19 cases
+0.57,0.0,0.43,Negative,841.0,horse shows,0,horse shows
+0.57,0.0,0.43,Negative,897.0,surgeons,0,surgeons
+0.83,0.0,0.17,Negative,637.0,obamaist,0,obamaist
+0.64,0.0,0.36,Negative,392.0,world health organisation who ,0,world health organisation (who)
+0.53,0.0,0.47,Negative,903.0,architect,0,architect
+0.4,0.0,0.6,Positive,939.0,dolphins,0,dolphins
+0.8,0.0,0.2,Negative,847.0,wuhan lab,1,wuhan lab
+0.56,0.0,0.44,Negative,1230.0,centre of disease control cdc ,0,centre of disease control (cdc)
+0.39,0.0,0.61,Positive,1041.0,gains,0,gains
+0.7,0.0,0.3,Negative,941.0,toxic relationship,0,toxic relationship
+0.19,0.0,0.81,Positive,762.0,video conference,0,video conference
+0.67,0.0,0.33,Negative,927.0,boomers,0,boomers
+0.34,0.0,0.66,Positive,825.0,engineering,0,engineering
+0.75,0.0,0.25,Negative,888.0,fact check,0,fact check
+0.47,0.0,0.53,Positive,172.0,queen elizabeths son,0,
+0.12,0.0,0.88,Positive,907.0,indianboys,0,indianboys
+0.24,0.0,0.76,Positive,862.0,handwashing dance,0,handwashing dance
+0.35,0.0,0.65,Positive,833.0,amitabh bachchan,0,amitabh bachchan
+0.54,0.0,0.46,Negative,799.0,modiji,0,modiji
+0.52,0.0,0.48,Negative,845.0,scientist,0,scientist
+0.6,0.0,0.4,Negative,15.0,post-covid,1,post-covid
+0.29,0.0,0.71,Positive,921.0,madagascar,0,madagascar
+0.86,0.0,0.14,Negative,884.0,states opening too soon,0,states opening too soon
+0.23,0.0,0.77,Positive,974.0,dr. sadler,0,dr. sadler
+0.79,0.0,0.21,Negative,933.0,diarrhea,0,diarrhea
+0.72,0.0,0.28,Negative,903.0,chlamydia,0,chlamydia
+0.38,0.0,0.62,Positive,474.0,romaninan,0,romaninan
+0.58,0.0,0.42,Negative,952.0,engineering people,0,engineering people
+0.38,0.0,0.62,Positive,941.0,google classroom,0,google classroom
+0.53,0.0,0.47,Negative,721.0,email,0,email
+0.53,0.0,0.47,Negative,30.0,vladimir puitin,0,vladimir puitin
+0.77,0.0,0.23,Negative,1047.0,usa government,0,usa government
+0.83,0.0,0.17,Negative,6.0,india-china standoff,1,india-china standoff
+0.44,0.0,0.56,Positive,752.0,jason,0,jason
+0.43,0.0,0.57,Positive,691.0,bread,0,bread
+0.82,0.0,0.18,Negative,817.0,liberal,0,liberal
+0.6,0.0,0.4,Negative,814.0,customers,0,customers
+0.58,0.0,0.42,Negative,878.0,fence,0,fence
+0.4,0.0,0.6,Positive,519.0,high school,0,high school
+0.8,0.0,0.2,Negative,10.0,anti-vaxxer's parents,1,anti-vaxxer's parents
+0.34,0.0,0.66,Positive,940.0,dudley,0,dudley
+0.62,0.0,0.38,Negative,891.0,victoria secret store,0,victoria secret store
+0.32,0.0,0.68,Positive,969.0,2020 tokyo olympics,0,2020 tokyo olympics
+0.59,0.0,0.41,Negative,882.0,home school,0,home school
+0.54,0.0,0.46,Negative,912.0,travel agents,0,travel agents
+0.84,0.0,0.16,Negative,917.0,xenophobia,0,xenophobia
+0.72,0.0,0.28,Negative,859.0,adolf hitler,0,adolf hitler
+0.62,0.0,0.38,Negative,877.0,pre covid,1,pre covid
+0.31,0.0,0.69,Positive,902.0,archaeologists,0,archaeologists
+0.75,0.0,0.25,Negative,938.0,quarantine week,1,quarantine week
+0.59,0.0,0.41,Negative,910.0,social distancing norms,0,social distancing norms
+0.42,0.0,0.58,Positive,906.0,vancouver,0,vancouver
+0.6,0.0,0.4,Negative,922.0,laxative,0,laxative
+0.15,0.0,0.85,Positive,841.0,horoscope,0,horoscope
+0.53,0.0,0.47,Negative,892.0,societies,0,societies
+0.67,0.0,0.33,Negative,984.0,nbc news,0,nbc news
+0.34,0.0,0.66,Positive,719.0,partner,0,partner
+0.28,0.0,0.72,Positive,973.0,biohazard 8,0,biohazard 8
+0.48,0.0,0.52,Positive,738.0,california,0,california
+0.41,0.0,0.59,Positive,935.0,quarantine snacks,1,quarantine snacks
+0.22,0.0,0.78,Positive,463.0,vancoouver,0,vancoouver
+0.65,0.0,0.35,Negative,925.0,clorox,0,clorox
+0.69,0.0,0.31,Negative,611.0,the us,0,the us
+0.6,0.0,0.4,Negative,356.0,mask,1,mask
+0.84,0.0,0.16,Negative,649.0,anti virus,1,
+0.83,0.0,0.17,Negative,836.0,donald trump administration,0,donald trump administration
+0.46,0.0,0.54,Positive,922.0,human papilloma virus,1,human papillomavirus
+0.69,0.0,0.31,Negative,1020.0,world war 3 (ww3),0,world war 3 (ww3)
+0.53,0.0,0.47,Negative,911.0,train,0,train
+0.46,0.0,0.54,Positive,1079.0,norton antivirus,1,norton antivirus
+0.51,0.0,0.49,Negative,944.0,hoop skirts,0,hoop skirts
+0.64,0.0,0.36,Negative,822.0,co2,0,co2
+0.6,0.0,0.4,Negative,950.0,ads,0,ads
+0.39,0.0,0.61,Positive,872.0,astronauts,0,astronauts
+0.48,0.0,0.52,Positive,955.0,home schooling day,0,home schooling day
+0.18,0.0,0.82,Positive,998.0,delhi daredevils (dd),0,delhi daredevils (dd)
+0.69,0.0,0.31,Negative,881.0,employer,0,employer
+0.69,0.0,0.31,Negative,494.0,workers,0,workers
+0.77,0.0,0.23,Negative,177.0,cgi rita ora,0,cgi rita ora
+0.09,0.0,0.91,Positive,865.0,namaste,0,namaste
+0.77,0.0,0.23,Negative,823.0,covid patients,1,covid patients
+0.21,0.0,0.79,Positive,818.0,rekha,0,rekha
+0.6,0.0,0.4,Negative,846.0,coronavirus conference,1,coronavirus conference
+0.54,0.0,0.46,Negative,605.0,groups,0,groups
+0.27,0.0,0.73,Positive,941.0,2028,0,2028
+0.4,0.0,0.6,Positive,940.0,sparky,0,sparky
+0.34,0.0,0.66,Positive,892.0,coronavirus preventive measures,1,coronavirus preventive measures
+0.52,0.0,0.48,Negative,953.0,ipods,0,ipods
+0.54,0.0,0.46,Negative,942.0,mosquito,0,mosquito
+0.39,0.0,0.61,Positive,893.0,lizol,0,lizol
+0.27,0.0,0.73,Positive,868.0,broncolin,0,broncolin
+0.34,0.0,0.66,Positive,892.0,gamers,0,gamers
+0.72,0.0,0.28,Negative,768.0,bbc news,0,bbc news
+0.58,0.0,0.42,Negative,953.0,plastic sheeting,0,plastic sheeting
+0.7,0.0,0.3,Negative,397.0,pandemic,0,pandemic
+0.68,0.0,0.32,Negative,897.0,cocaine,0,cocaine
+0.61,0.0,0.39,Negative,853.0,plagues,0,plagues
+0.54,0.0,0.46,Negative,882.0,chinese boy,1,chinese boy
+0.46,0.0,0.54,Positive,873.0,austria,0,austria
+0.62,0.0,0.38,Negative,822.0,men,0,men
+0.51,0.0,0.49,Negative,918.0,ibuprofen,0,ibuprofen
+0.49,0.0,0.51,Positive,829.0,hr,0,hr
+0.64,0.0,0.36,Negative,593.0,disease,0,disease
+0.43,0.0,0.57,Positive,935.0,second wave of covid19,1,second wave of covid19
+0.6,0.0,0.4,Negative,854.0,mers,0,mers
+0.44,0.0,0.56,Positive,860.0,john morgan,0,john morgan
+0.62,0.0,0.38,Negative,861.0,hiv,0,hiv
+0.44,0.0,0.56,Positive,1213.0,osun,0,osun
+0.48,0.0,0.52,Positive,937.0,alien,0,alien
+0.77,0.0,0.23,Negative,888.0,chinese airport,1,chinese airport
+0.55,0.0,0.45,Negative,837.0,monkey,0,monkey
+0.8,0.0,0.2,Negative,849.0,new virus in china,1,new virus in china
+0.41,0.0,0.59,Positive,389.0,whole world,0,whole world
+0.43,0.0,0.57,Positive,798.0,leonardo dicaprio,0,leonardo dicaprio
+0.05,0.0,0.95,Positive,1014.0,national suicide prevention lifeline,0,national suicide prevention lifeline
+0.62,0.0,0.38,Negative,747.0,bars,0,bars
+0.78,0.0,0.22,Negative,750.0,airlines,0,airlines
+0.18,0.0,0.82,Positive,941.0,live events,0,live events
+0.76,0.0,0.24,Negative,614.0,china coronavirus,1,china coronavirus
+0.32,0.0,0.68,Positive,19.0,dr anthoy fauci,0,
+0.44,0.0,0.56,Positive,713.0,finland,0,finland
+0.41,0.0,0.59,Positive,891.0,candle manufacturers,0,candle manufacturers
+0.65,0.0,0.35,Negative,898.0,literate people,0,literate people
+0.13,0.0,0.87,Positive,438.0,president tim killeen,1,president tim killeen
+0.6,0.0,0.4,Negative,858.0,parents,0,parents
+0.6,0.0,0.4,Negative,897.0,bruce aylward,0,bruce aylward
+0.42,0.0,0.58,Positive,764.0,pm modi,0,pm modi
+0.5,0.0,0.5,Negative,2.0,wu-hound,0,wu-hound
+0.19,0.0,0.81,Positive,1144.0,destination wedding,0,destination wedding
+0.73,0.0,0.27,Negative,935.0,chris wallace,0,chris wallace
+0.49,0.0,0.51,Positive,752.0,porn,0,porn
+0.54,0.0,0.46,Negative,1018.0,world health organization (who),0,world health organization (who)
+0.66,0.0,0.34,Negative,665.0,aids,0,aids
+0.59,0.0,0.41,Negative,976.0,zoom work meeting,0,zoom work meeting
+1.0,0.0,0.0,Negative,2.0,coornavirus prevention,1,coornavirus prevention
+0.87,0.0,0.13,Negative,937.0,trump administration,0,trump administration
+0.49,0.0,0.51,Positive,725.0,house,0,house
+0.45,0.0,0.55,Positive,771.0,muhyiddin,0,muhyiddin
+0.82,0.0,0.18,Negative,640.0,flu virus,1,flu virus
+0.71,0.0,0.29,Negative,810.0,american lives,0,american lives
+0.45,0.0,0.55,Positive,610.0,planet,0,planet
+0.6,0.0,0.4,Negative,877.0,heroin,0,heroin
+0.4,0.0,0.6,Positive,508.0,stay in,0,stay in
+0.5,0.0,0.5,Positive,974.0,couch,0,couch
+0.23,0.0,0.77,Positive,873.0,the cure band,0,the cure band
+0.47,0.0,0.53,Positive,961.0,polar vortex,0,polar vortex
+0.64,0.0,0.36,Negative,871.0,plague outbreak,0,plague outbreak
+0.43,0.0,0.57,Positive,610.0,quaratine food,0,quaratine food
+0.2,0.0,0.8,Positive,715.0,drive-in theatre,0,drive-in theatre
+0.36,0.0,0.64,Positive,914.0,goya,0,goya
+0.34,0.0,0.66,Positive,703.0,working from home memes,0,working from home memes
+0.28,0.0,0.72,Positive,737.0,t-shirt,0,t-shirt
+0.35,0.0,0.65,Positive,469.0,friends,0,friends
+0.29,0.0,0.71,Positive,775.0,cybersecurity,0,cybersecurity
+0.65,0.0,0.35,Negative,708.0,drivers,0,drivers
+0.39,0.0,0.61,Positive,913.0,money heist,0,money heist
+0.87,0.0,0.13,Negative,952.0,china virus,1,china virus
+0.62,0.0,0.38,Negative,945.0,pifzer,0,pifzer
+0.55,0.0,0.45,Negative,598.0,woman,0,woman
+0.58,0.0,0.42,Negative,853.0,daycare,0,daycare
+0.55,0.0,0.45,Negative,933.0,lyme disease,0,lyme disease
+0.39,0.0,0.61,Positive,864.0,safe distance,0,safe distance
+0.57,0.0,0.43,Negative,241.0,malayasians,0,malayasians
+0.31,0.0,0.69,Positive,677.0,books,0,books
+0.62,0.0,0.38,Negative,769.0,airport,0,airport
+0.76,0.0,0.24,Negative,793.0,ivanka trump,0,ivanka trump
+0.33,0.0,0.67,Positive,634.0,butter,0,butter
+0.46,0.0,0.54,Positive,962.0,universal logo,0,universal logo
+0.45,0.0,0.55,Positive,971.0,grand children,0,grandchildren
+0.35,0.0,0.65,Positive,720.0,netherlands,0,netherlands
+0.33,0.0,0.67,Positive,960.0,chai,0,chai
+0.1,0.0,0.9,Positive,1116.0,travel blogger,0,travel blogger
+0.32,0.0,0.68,Positive,768.0,jee,0,jee
+0.43,0.0,0.57,Positive,921.0,less pollution,0,less pollution
+0.45,0.0,0.55,Positive,669.0,god,0,god
+0.61,0.0,0.39,Negative,926.0,mexicans,0,mexicans
+0.7,0.0,0.3,Negative,577.0,hospitals,0,hospitals
+0.29,0.0,0.71,Positive,887.0,tacos,0,tacos
+0.37,0.0,0.63,Positive,903.0,godzilla,1,godzilla
+0.58,0.0,0.42,Negative,340.0,english sweating sickness,1,english sweating sickness
+0.7,0.0,0.3,Negative,848.0,australians,0,australians
+0.72,0.0,0.28,Negative,795.0,kamala harris,0,kamala harris
+0.5,0.0,0.5,Negative,8.0,russian nurse nadia,0,russian nurse nadia
+0.42,0.0,0.58,Positive,950.0,grandpa,0,grandpa
+0.43,0.0,0.57,Positive,873.0,vius,0,vius
+0.43,0.0,0.57,Positive,840.0,mum,0,mum
+0.45,0.0,0.55,Positive,959.0,ice truck,0,ice truck
+0.48,0.0,0.52,Positive,1121.0,tiger king,0,tiger king
+0.59,0.0,0.41,Negative,966.0,khabib vs tony,0,khabib vs tony
+0.73,0.0,0.27,Negative,795.0,oil war,0,oil war
+0.3,0.0,0.7,Positive,932.0,liam gallagher,0,liam gallagher
+0.27,0.0,0.73,Positive,901.0,premium account,0,premium account
+0.11,0.0,0.89,Positive,849.0,paul laurence,0,paul laurence
+0.42,0.0,0.58,Positive,73.0,mr.stark,0,mr.stark
+0.52,0.0,0.48,Negative,866.0,student organizations,0,student organizations
+0.67,0.0,0.33,Negative,918.0,worms,0,worms
+0.37,0.0,0.63,Positive,762.0,library,0,library
+0.24,0.0,0.76,Positive,830.0,anytime fitness,0,anytime fitness
+0.65,0.0,0.35,Negative,857.0,black death,0,black death
+0.49,0.0,0.51,Positive,918.0,swimmers,0,swimmers
+0.47,0.0,0.53,Positive,876.0,bigfoot,0,bigfoot
+0.79,0.0,0.21,Negative,892.0,hillary clinton,1,hillary clinton
+0.27,0.0,0.73,Positive,911.0,kiss,0,kiss
+0.49,0.0,0.51,Positive,899.0,bra,0,bra
+0.5,0.0,0.5,Negative,926.0,firewall,0,firewall
+0.33,0.0,0.67,Positive,944.0,shadong,0,shadong
+0.18,0.0,0.82,Positive,39.0,robert b. weide,0,robert b. weide
+0.76,0.0,0.24,Negative,840.0,coronavirus porn,1,coronavirus porn
+0.42,0.0,0.58,Positive,970.0,less traffic,0,less traffic
+0.59,0.0,0.41,Negative,782.0,indian chinese,1,indian chinese
+0.36,0.0,0.64,Positive,848.0,easter egg hunt,0,easter egg hunt
+0.08,0.0,0.92,Positive,847.0,victorias secret,0,
+0.48,0.0,0.52,Positive,939.0,lube,0,lube
+0.44,0.0,0.56,Positive,1098.0,diego maradona,0,diego maradona
+0.37,0.0,0.63,Positive,966.0,pant,0,pant
+0.44,0.0,0.56,Positive,715.0,2020 04 01 00 00 00,0,
+0.81,0.0,0.19,Negative,1234.0,wuhan virus plague,1,wuhan virus plague
+0.44,0.0,0.56,Positive,889.0,recuiter,0,recuiter
+0.56,0.0,0.44,Negative,766.0,immune system,0,immune system
+0.53,0.0,0.47,Negative,948.0,t-rexes,0,t-rexes
+0.29,0.0,0.71,Positive,966.0,1989,0,1989
+0.69,0.0,0.31,Negative,953.0,corona swine flu,1,corona swine flu
+0.4,0.0,0.6,Positive,951.0,gondor,0,gondor
+0.56,0.0,0.44,Negative,869.0,ration,0,ration
+0.4,0.0,0.6,Positive,57.0,robert downey jr.,0,robert downey jr.
+0.28,0.0,0.72,Positive,1202.0,lee hsien loong,0,lee hsien loong
+0.33,0.0,0.67,Positive,913.0,homies,0,homies
+0.41,0.0,0.59,Positive,920.0,vitamin gummies,0,vitamin gummies
+0.63,0.0,0.37,Negative,919.0,french people,0,french people
+0.47,0.0,0.53,Positive,790.0,the cure,0,the cure
+0.57,0.0,0.43,Negative,1135.0,lockdown in india,0,lockdown in india
+0.5,0.0,0.5,Negative,858.0,shops,0,shops
+0.77,0.0,0.23,Negative,736.0,nhs,0,nhs
+0.55,0.0,0.45,Negative,838.0,zombies,0,zombies
+0.13,0.0,0.87,Positive,862.0,mumbai indians (mi),0,mumbai indians (mi)
+0.62,0.0,0.38,Negative,841.0,customer,0,customer
+0.43,0.0,0.57,Positive,945.0,bcci,0,bcci
+0.38,0.0,0.62,Positive,213.0,simpsons,0,simpsons
+0.43,0.0,0.57,Positive,861.0,crude oil,0,crude oil
+0.7,0.0,0.3,Negative,907.0,healthcare workers,0,healthcare workers
+0.37,0.0,0.63,Positive,933.0,weddings,0,weddings
+0.41,0.0,0.59,Positive,914.0,wizard,0,wizard
+0.7,0.0,0.3,Negative,10.0,thanos snap sanitizer,1,thanos snap sanitizer
+0.59,0.0,0.41,Negative,817.0,flu shot,1,flu shot
+0.75,0.0,0.25,Negative,469.0,jeffrey epstein,0,jeffrey epstein
