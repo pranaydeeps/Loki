@@ -30,22 +30,22 @@ tokenizer = AutoTokenizer.from_pretrained("digitalepidemiologylab/covid-twitter-
 ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
 def preprocess_function(examples):
-    first_sentences = [[context] * 4 for context in examples["sentence"]]
+    first_sentences = [[context] * 4]
     question_headers = examples["aspect"]
     second_sentences = [
-     [f"{header} {end}" for end in ending_names] for i, header in enumerate(question_headers)
-    ]
+     [[f"{question_headers} {end}" for end in ending_names]]
     first_sentences = sum(first_sentences, [])
     second_sentences = sum(second_sentences, [])
-    #print(second_sentences)
+    print(second_sentences)
     tokenized_examples = tokenizer(first_sentences, second_sentences, truncation=True)
+
     return {k: [v[i : i + 4] for i in range(0, len(v), 4)] for k, v in tokenized_examples.items()}
 
 
 from datasets import load_dataset
 data = load_dataset("csv", data_files = {"train": "train_data.csv", "test": "test_data.csv"})
 
-tokenized_data = data.map(preprocess_function, batched=True)
+tokenized_data = data.map(preprocess_function)
 
 from dataclasses import dataclass
 from transformers.tokenization_utils_base import PreTrainedTokenizerBase, PaddingStrategy
@@ -106,7 +106,7 @@ def compute_metrics(pred):
 
 
 training_args = TrainingArguments(
-     output_dir=".",
+     output_dir="./results",
      evaluation_strategy="epoch",
      learning_rate=5e-5,
      per_device_train_batch_size=2,
