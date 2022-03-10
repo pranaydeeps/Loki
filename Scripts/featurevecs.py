@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 def main():
-    pranayfileloc = os.path.join("ClassifierFiles", "train_with_logits.csv")
+    pranayfileloc = os.path.join("ClassifierFiles", "test_with_logits.csv")
     pranaydf = pd.read_csv(pranayfileloc)
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf)
@@ -17,7 +17,7 @@ def main():
 
     combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="entity")
     combinedf = combinedf.drop_duplicates(subset=["aspect","sentence"])
-    combinedf =combinedf[["sentence","hero", "villain", "victim", "label", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
+    combinedf =combinedf[["sentence","hero", "villain", "victim", "other", "label", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
     
     combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].fillna("Neutral")
     combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].replace({"Negative": 0, "Neutral": 1, "Positive": 2})
@@ -40,7 +40,7 @@ def main():
     combinedf["victimsim"] = victimsim"""
     print(combinedf, combinedf.columns)
 
-    outpath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
+    outpath = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     combinedf.to_csv(outpath, index=False)
 
 

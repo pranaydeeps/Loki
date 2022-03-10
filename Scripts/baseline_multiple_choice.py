@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report
 import tqdm
 import numpy as np
 import csv
-import torch
+from torch import nn
 
 with open('final_data.csv') as fp:
     reader = csv.reader(fp, delimiter=",", quotechar='"')
@@ -92,6 +92,16 @@ model = AutoModelForMultipleChoice.from_pretrained("digitalepidemiologylab/covid
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
+class CustomTrainer(Trainer):
+    def compute_loss(self, model, inputs, return_outputs=False):
+        labels = inputs.get("labels")
+        # forward pass
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
+        loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([1., 1., 1., 0.15]).cuda())
+        loss = loss_fct(logits, labels)
+        return (loss, outputs) if return_outputs else loss
+
 def compute_metrics(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
@@ -107,15 +117,17 @@ def compute_metrics(pred):
 
 training_args = TrainingArguments(
      output_dir=".",
-     evaluation_strategy="epoch",
-     learning_rate=5e-5,
-     per_device_train_batch_size=2,
-     per_device_eval_batch_size=2,
-     num_train_epochs=2,
+     evaluation_strategy="steps",
+     eval_steps=200,
+     learning_rate=1e-5,
+     per_device_train_batch_size=1,
+     per_device_eval_batch_size=1,
+     num_train_epochs=3,
+     gradient_accumulation_steps=4,
      weight_decay=0.01,
      save_strategy='no')
 
-trainer = Trainer(
+trainer = CustomTrainer(
      model=model,
      args=training_args,
      train_dataset=tokenized_data["train"],
@@ -134,7 +146,7 @@ test_output = trainer.predict(tokenized_data["test"])
 train_csv = []
 for i, point in enumerate(tokenized_data["train"]):
     hero, villain, victim, other = torch.softmax(torch.tensor(train_output[0][i]),dim=0).numpy()
-    print((hero,villain,victim,other))
+    #print((hero,villain,victim,other))
     train_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
 with open('train_with_logits.csv', 'w') as f:
@@ -144,7 +156,7 @@ with open('train_with_logits.csv', 'w') as f:
 test_csv = []
 for i, point in enumerate(tokenized_data["test"]):
     hero, villain, victim, other = torch.softmax(torch.tensor(test_output[0][i]),dim=0).numpy()
-    print((hero,villain,victim, other))
+    #print((hero,villain,victim, other))
     test_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
 with open('test_with_logits.csv', 'w') as f:
