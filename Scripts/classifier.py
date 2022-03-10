@@ -5,6 +5,7 @@ import os
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
 from sklearn import tree
 from sklearn.metrics import classification_report
 # from catboost import CatBoostClassifier
@@ -16,28 +17,37 @@ from sklearn.tree import DecisionTreeClassifier
 def main():
     test_features = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     test_df = pd.read_csv(test_features)
-    test_features = test_df[["hero", "villain", "victim", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
+    test_features = test_df[["hero", "villain", "victim", "other", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
     test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
     true_labels = test_df["label"]
 
     featurepath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
     featuresdf  = pd.read_csv(featurepath)
-    features = featuresdf[["hero", "villain", "victim", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
+    features = featuresdf[["hero", "villain", "victim", "other", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
     features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("category")
     labels = featuresdf["label"]
 
-    models = ["RF", "SVM", "LinSVC"]
+    models = ["RF", "SVM"]
 
     for modelname in models:
         print("Model: {}".format(modelname))
         if modelname == "RF":
-            model = RandomForestClassifier(random_state=0)
-        elif modelname == "SVM":
-            model = SVC(decision_function_shape='ovo')
-        elif modelname == "LinSVC":
-            model = make_pipeline(StandardScaler(), LinearSVC(random_state=0, tol=1e-5))
-        model.fit(X=features, y=labels)
+            param_grid = { 
+            'n_estimators': [200, 500],
+            'max_features': ['auto', 'sqrt', 'log2'],
+            'max_depth' : [4,5,6,7],
+            'criterion' :['gini', 'entropy']}
+            model = GridSearchCV(RandomForestClassifier(), param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
 
+        elif modelname == "SVM":
+            param_grid = {'C': [0.1, 1, 10, 100],
+              'gamma': [1, 0.1, 0.01, 0.001],
+              'kernel': ['linear','rbf']}
+            model = GridSearchCV(SVC(class_weight='balanced'), param_grid, refit = True, verbose = 3, scoring='f1_macro', n_jobs=-1)
+        
+        
+        model.fit(X=features, y=labels)
+        print(model.best_params_)
         path = os.path.join("models","model{}.pkl".format(modelname))
         with open(path, 'wb') as file:
             pickle.dump(model, file)

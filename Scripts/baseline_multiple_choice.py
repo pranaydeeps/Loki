@@ -20,7 +20,6 @@ tags = []
 for dat in final_data:
     tags.append(dat[2])
 tags = list(set(tags))
-",".join(tags)
 tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
@@ -91,6 +90,14 @@ from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
 model = AutoModelForMultipleChoice.from_pretrained("digitalepidemiologylab/covid-twitter-bert")
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
+from sklearn.utils import class_weight
+
+class_weights = dict(enumerate(class_weight.compute_class_weight('balanced',
+                                                         classes=[idx2tag[i]for i in range(0,len(tags))],
+                                                         y=list(tokenized_data["train"]["label"]))))
+print('WEIGHTS: {}'.format(str(class_weights)))
+weights_list = [float(class_weights[i])for i in range(0,len(tags))]
+
 
 class CustomTrainer(Trainer):
     def compute_loss(self, model, inputs, return_outputs=False):
@@ -98,7 +105,7 @@ class CustomTrainer(Trainer):
         # forward pass
         outputs = model(**inputs)
         logits = outputs.get("logits")
-        loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([1., 1., 1., 0.15]).cuda())
+        loss_fct = nn.CrossEntropyLoss(weight=torch.tensor(weights_list).cuda())
         loss = loss_fct(logits, labels)
         return (loss, outputs) if return_outputs else loss
 
@@ -115,17 +122,22 @@ def compute_metrics(pred):
     }
 
 
+
+
+
 training_args = TrainingArguments(
      output_dir=".",
      evaluation_strategy="steps",
      eval_steps=200,
      learning_rate=1e-5,
-     per_device_train_batch_size=1,
-     per_device_eval_batch_size=1,
+     per_device_train_batch_size=2,
+     per_device_eval_batch_size=2,
      num_train_epochs=3,
      gradient_accumulation_steps=4,
      weight_decay=0.01,
      save_strategy='no')
+
+
 
 trainer = CustomTrainer(
      model=model,
