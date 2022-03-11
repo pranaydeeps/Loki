@@ -1,0 +1,58 @@
+{
+  "best_metric": 0.22112316528398213,
+  "best_model_checkpoint": "./bert-large/checkpoint-1000",
+  "epoch": 0.572164211128594,
+  "global_step": 1000,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.11,
+      "learning_rate": 9.771036061820265e-06,
+      "loss": 0.7935,
+      "step": 200
+    },
+    {
+      "epoch": 0.23,
+      "learning_rate": 9.542072123640528e-06,
+      "loss": 0.7129,
+      "step": 400
+    },
+    {
+      "epoch": 0.34,
+      "learning_rate": 9.31310818546079e-06,
+      "loss": 0.6422,
+      "step": 600
+    },
+    {
+      "epoch": 0.46,
+      "learning_rate": 9.084144247281054e-06,
+      "loss": 0.6799,
+      "step": 800
+    },
+    {
+      "epoch": 0.57,
+      "learning_rate": 8.855180309101318e-06,
+      "loss": 0.6231,
+      "step": 1000
+    },
+    {
+      "epoch": 0.57,
+      "eval_accuracy": 0.7929061784897025,
+      "eval_f1": 0.22112316528398213,
+      "eval_loss": 0.9910944104194641,
+      "eval_precision": 0.19822654462242562,
+      "eval_recall": 0.25,
+      "eval_runtime": 71.1331,
+      "eval_samples_per_second": 49.147,
+      "eval_steps_per_second": 24.574,
+      "step": 1000
+    }
+  ],
+  "max_steps": 8735,
+  "num_train_epochs": 5,
+  "total_flos": 3632104914543672.0,
+  "trial_name": null,
+  "trial_params": null
+}

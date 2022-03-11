@@ -24,7 +24,7 @@ tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
 from transformers import AutoTokenizer
-tokenizer = AutoTokenizer.from_pretrained("digitalepidemiologylab/covid-twitter-bert")
+tokenizer = AutoTokenizer.from_pretrained("bert-large-cased")
 
 ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
@@ -37,11 +37,13 @@ def preprocess_function(examples):
     first_sentences = sum(first_sentences, [])
     second_sentences = sum(second_sentences, [])
     #print(second_sentences)
-    tokenized_examples = tokenizer(first_sentences, second_sentences, truncation=True)
+    tokenized_examples = tokenizer(first_sentences, second_sentences, truncation=True, max_length=512)
     return {k: [v[i : i + 4] for i in range(0, len(v), 4)] for k, v in tokenized_examples.items()}
 
 
 from datasets import load_dataset
+import datasets
+datasets.set_caching_enabled(False)
 data = load_dataset("csv", data_files = {"train": "train_data.csv", "test": "test_data.csv"})
 
 tokenized_data = data.map(preprocess_function, batched=True)
@@ -50,7 +52,6 @@ from dataclasses import dataclass
 from transformers.tokenization_utils_base import PreTrainedTokenizerBase, PaddingStrategy
 from typing import Optional, Union
 import torch
-
 
 @dataclass
 class DataCollatorForMultipleChoice:
@@ -77,7 +78,6 @@ class DataCollatorForMultipleChoice:
         batch = self.tokenizer.pad(
             flattened_features,
             padding=True,
-            max_length=128,
             return_tensors="pt"
         )
 
@@ -87,7 +87,7 @@ class DataCollatorForMultipleChoice:
 
 
 from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
-model = AutoModelForMultipleChoice.from_pretrained("digitalepidemiologylab/covid-twitter-bert")
+model = AutoModelForMultipleChoice.from_pretrained("bert-large-cased")
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from sklearn.utils import class_weight
@@ -112,7 +112,7 @@ class CustomTrainer(Trainer):
 def compute_metrics(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
-    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds)
+    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='macro')
     acc = accuracy_score(labels, preds)
     return {
         'accuracy': acc,
@@ -126,19 +126,22 @@ def compute_metrics(pred):
 
 
 training_args = TrainingArguments(
-     output_dir=".",
-     evaluation_strategy="epoch",
-     learning_rate=5e-5,
-     per_device_train_batch_size=2,
+     output_dir="./bert-large/",
+     evaluation_strategy="steps",
+     eval_steps=1000,
+     learning_rate=1e-5,
+     per_device_train_batch_size=1,
      per_device_eval_batch_size=2,
      num_train_epochs=5,
-     gradient_accumulation_steps=4,
+     gradient_accumulation_steps=8,
      weight_decay=0.01,
-     save_strategy='no')
+     save_total_limit=3,
+     metric_for_best_model='f1',
+     logging_steps=200)
 
 
 
-trainer = Trainer(
+trainer = CustomTrainer(
      model=model,
      args=training_args,
      train_dataset=tokenized_data["train"],
