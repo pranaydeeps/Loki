@@ -110,30 +110,30 @@ idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 #     write = csv.writer(f)
 #     write.writerows(test_csv)
 
-# pranayfileloc = "testfinal_with_logits.csv"
-# pranaydf = pd.read_csv(pranayfileloc)
+pranayfileloc = "testfinal_with_logits.csv"
+pranaydf = pd.read_csv(pranayfileloc)
 # pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
 # print(pranaydf)
 
-# targetloc = os.path.join("TweetSAPreds", "targetSentResults_siebert_num.csv")
-# targetdf = pd.read_csv(targetloc)
-# targetdf = targetdf[["entity","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
+targetloc = os.path.join("TweetSAPreds", "targetSentResults_siebert_num.csv")
+targetdf = pd.read_csv(targetloc)
+targetdf = targetdf[["entity","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
 # print(targetdf, targetdf.columns)
 
-# combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="entity")
+combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="entity")
 # combinedf = combinedf.drop_duplicates(subset=["aspect","sentence"])
-# combinedf =combinedf[["image", "sentence","hero", "villain", "victim", "other", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
+combinedf =combinedf[["image", "sentence","hero", "villain", "victim", "other", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
 
-# combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].fillna("Neutral")
-# combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].replace({"Negative": 0, "Neutral": 1, "Positive": 2})
-# combinedf = combinedf.fillna(0.33)
+combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].fillna("Neutral")
+combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].replace({"Negative": 0, "Neutral": 1, "Positive": 2})
+combinedf = combinedf.fillna(0.33)
 
-# # combinedf["label"] = combinedf["label"].replace({"villain": 0, "hero" : 1, "victim": 2, "other":3})
+# combinedf["label"] = combinedf["label"].replace({"villain": 0, "hero" : 1, "victim": 2, "other":3})
 
 # print(combinedf, combinedf.columns)
 
-# outpath = os.path.join("ClassifierFiles", "ClassDF_TestFinal.csv")
-# combinedf.to_csv(outpath, index=False)
+outpath = os.path.join("ClassifierFiles", "ClassDF_TestFinal.csv")
+combinedf.to_csv(outpath, index=False)
 
 
 from unicodedata import category
