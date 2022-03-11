@@ -24,7 +24,7 @@ tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
 from transformers import AutoTokenizer
-tokenizer = AutoTokenizer.from_pretrained("bert-large-cased")
+tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
 ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
@@ -87,7 +87,7 @@ class DataCollatorForMultipleChoice:
 
 
 from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
-model = AutoModelForMultipleChoice.from_pretrained("bert-large-cased")
+model = AutoModelForMultipleChoice.from_pretrained("vinai/bertweet-large")
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from sklearn.utils import class_weight
@@ -126,7 +126,7 @@ def compute_metrics(pred):
 
 
 training_args = TrainingArguments(
-     output_dir="./bert-large/",
+     output_dir="./berttweet/",
      evaluation_strategy="steps",
      eval_steps=1000,
      learning_rate=1e-5,
@@ -163,7 +163,7 @@ for i, point in enumerate(tokenized_data["train"]):
     #print((hero,villain,victim,other))
     train_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('train_with_logits.csv', 'w') as f:
+with open('train_with_logits_bertweet.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(train_csv)
 
@@ -173,7 +173,7 @@ for i, point in enumerate(tokenized_data["test"]):
     #print((hero,villain,victim, other))
     test_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('test_with_logits.csv', 'w') as f:
+with open('test_with_logits_bertweet.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(test_csv)
 
