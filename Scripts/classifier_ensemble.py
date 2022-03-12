@@ -14,6 +14,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
+from xgboost import XGBClassifier
 def main():
     test_features = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     test_df = pd.read_csv(test_features)
@@ -27,11 +28,23 @@ def main():
     features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("category")
     labels = featuresdf["label"]
 
-    models = ["RF", "SVM"]
+    models = ["XGB", "RF", "SVM"]
 
     for modelname in models:
         print("Model: {}".format(modelname))
-        if modelname == "RF":
+        if modelname == "XGB":
+            param_grid = {
+            'min_child_weight': [1, 5, 10],
+            'gamma': [0.5, 1, 1.5, 2, 5],
+            'subsample': [0.6, 0.8, 1.0],
+            'colsample_bytree': [0.6, 0.8, 1.0],
+            'max_depth': [3, 4, 5]
+            }
+            xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', nthread=1)
+            model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
+
+
+        elif modelname == "RF":
             param_grid = { 
             'n_estimators': [200, 500],
             'max_features': ['auto', 'sqrt', 'log2'],
