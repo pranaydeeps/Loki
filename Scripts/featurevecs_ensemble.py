@@ -5,18 +5,18 @@ import numpy as np
 import random
 
 def main():
-    split = 'test'
-    pranayfileloc = "logit_backups_bertweet/{}_with_logits_bertweet.csv".format(split)
+    split = 'train'
+    pranayfileloc = "{}ensemble_with_logits.csv".format(split)
     pranaydf = pd.read_csv(pranayfileloc)
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf)
 
-    pranayfileloc2 = "logit_backups_bertlarge/{}_with_logits.csv".format(split)
+    pranayfileloc2 = "{}ensemble_with_logits2.csv".format(split)
     pranaydf2 = pd.read_csv(pranayfileloc2)
     pranaydf2 = pranaydf2.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf2)
 
-    pranayfileloc3 = "logit_backups/{}_with_logits.csv".format(split)
+    pranayfileloc3 = "{}ensemble_with_logits3.csv".format(split)
     pranaydf3 = pd.read_csv(pranayfileloc3)
     pranaydf3 = pranaydf3.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf3)
@@ -62,7 +62,7 @@ def main():
     combinedf["victimsim"] = victimsim"""
     print(combinedf, combinedf.columns)
 
-    outpath = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
+    outpath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
     combinedf.to_csv(outpath, index=False)
 
 

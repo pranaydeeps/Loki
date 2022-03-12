@@ -18,17 +18,17 @@ from xgboost import XGBClassifier
 def main():
     test_features = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     test_df = pd.read_csv(test_features)
-    test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2","hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
+    test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2", "hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
     #test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("int")
     true_labels = test_df["label"]
 
     featurepath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
     featuresdf  = pd.read_csv(featurepath)
-    features = featuresdf[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2", "hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
+    features = featuresdf[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2", "hero3", "villain3", "victim3", "other3",  'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
     #features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("int")
     labels = featuresdf["label"]
 
-    models = ["XGB", "RF", "SVM"]
+    models = ["RF", "SVM"]
 
     for modelname in models:
         print("Model: {}".format(modelname))

@@ -17,14 +17,14 @@ from transformers import AutoTokenizer
 from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
 
 
-# model = AutoModelForMultipleChoice.from_pretrained("./berttweet/checkpoint-8500")
-# tokenizer = AutoTokenizer.from_pretrained("./berttweet/checkpoint-8500")
+model = AutoModelForMultipleChoice.from_pretrained("./bertweet-split3/checkpoint-8500")
+tokenizer = AutoTokenizer.from_pretrained("./bertweet-split3/checkpoint-8500")
 
 # tokenizer = AutoTokenizer.from_pretrained("./bert-large/checkpoint-8500")
 # model = AutoModelForMultipleChoice.from_pretrained("./bert-large/checkpoint-8500")
 
-tokenizer = AutoTokenizer.from_pretrained("./checkpoint-5000")
-model = AutoModelForMultipleChoice.from_pretrained("./checkpoint-5000")
+# tokenizer = AutoTokenizer.from_pretrained("./checkpoint-5000")
+# model = AutoModelForMultipleChoice.from_pretrained("./checkpoint-5000")
 
 ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
@@ -37,7 +37,7 @@ def preprocess_function(examples):
     first_sentences = sum(first_sentences, [])
     second_sentences = sum(second_sentences, [])
     #print(second_sentences)
-    tokenized_examples = tokenizer(first_sentences, second_sentences, truncation=True)
+    tokenized_examples = tokenizer(first_sentences, second_sentences, truncation=True, max_length=512)
     return {k: [v[i : i + 4] for i in range(0, len(v), 4)] for k, v in tokenized_examples.items()}
 
 
@@ -120,6 +120,7 @@ training_args = TrainingArguments(
 
 pranayfileloc = "testfinal_with_logits.csv"
 pranaydf = pd.read_csv(pranayfileloc)
+
 
 ######################################################################################################################################
 
@@ -239,7 +240,7 @@ test_df = pd.read_csv(test_features)
 test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2","hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
 # test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
     
-loaded_model = pickle.load(open('models/modelSVM.pkl', 'rb'))
+loaded_model = pickle.load(open('models/modelRF.pkl', 'rb'))
 print("Model Loaded")
 print("Done")
 
@@ -250,5 +251,5 @@ results = results.tolist()
 # print(classification_report(y_true=true_labels, y_pred= results))
 test_df["pred"] = results
 test_df["pred"] = test_df["pred"].replace({0: "villain", 1 : "hero", 2 : "victim", 3 : "other"})
-test_df.to_csv(os.path.join("ClassifierFiles", "Predictions_TestFinal_ensemble.csv"), index=False)
+test_df.to_csv(os.path.join("ClassifierFiles", "Predictions_TestFinal_ensembleV3.csv"), index=False)
 

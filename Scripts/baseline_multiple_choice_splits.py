@@ -24,7 +24,7 @@ tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
 from transformers import AutoTokenizer
-tokenizer = AutoTokenizer.from_pretrained("./bertweet-split3/checkpoint-8500")
+tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
 ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
@@ -44,7 +44,7 @@ def preprocess_function(examples):
 from datasets import load_dataset
 import datasets
 datasets.set_caching_enabled(False)
-data = load_dataset("csv", data_files = {"train": "train_data.csv", "test": "test_data.csv"})
+data = load_dataset("csv", data_files = {"train": "train_data2.csv", "test": "test_data2.csv"})
 
 tokenized_data = data.map(preprocess_function, batched=True)
 
@@ -87,7 +87,7 @@ class DataCollatorForMultipleChoice:
 
 
 from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
-model = AutoModelForMultipleChoice.from_pretrained("./bertweet-split3/checkpoint-8500")
+model = AutoModelForMultipleChoice.from_pretrained("vinai/bertweet-large")
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from sklearn.utils import class_weight
@@ -135,7 +135,7 @@ training_args = TrainingArguments(
      num_train_epochs=5,
      gradient_accumulation_steps=8,
      weight_decay=0.01,
-     save_total_limit=3,
+     save_total_limit=1,
      metric_for_best_model='f1',
      logging_steps=200)
 
@@ -151,7 +151,7 @@ trainer = CustomTrainer(
     compute_metrics=compute_metrics
 )
 
-# trainer.train()
+trainer.train()
 
 model.eval()
 train_output = trainer.predict(tokenized_data["train"])
@@ -163,7 +163,7 @@ for i, point in enumerate(tokenized_data["train"]):
     #print((hero,villain,victim,other))
     train_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('trainensemble_with_logits3.csv', 'w') as f:
+with open('train_with_logits_split3.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(train_csv)
 
@@ -173,7 +173,7 @@ for i, point in enumerate(tokenized_data["test"]):
     #print((hero,villain,victim, other))
     test_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('testensemble_with_logits3.csv', 'w') as f:
+with open('test_with_logits_split3.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(test_csv)
 
