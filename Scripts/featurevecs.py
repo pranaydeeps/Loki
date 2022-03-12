@@ -10,7 +10,7 @@ def main():
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf)
 
-    targetloc = os.path.join("TweetSAPreds", "targetSentResults_siebert_num.csv")
+    targetloc = os.path.join("TweetSAPreds", "targetSentResults_finalversion.csv")
     targetdf = pd.read_csv(targetloc)
     targetdf = targetdf[["entity","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
     print(targetdf, targetdf.columns)
