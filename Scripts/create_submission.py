@@ -14,7 +14,7 @@ tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
 # from transformers import AutoTokenizer
-# tokenizer = AutoTokenizer.from_pretrained("./checkpoint-5000")
+# tokenizer = AutoTokenizer.from_pretrained("./berttweet/checkpoint-8500")
 
 # ending_names = ["is a hero", "is a villain", "is a victim", "is neutral"]
 
@@ -36,7 +36,7 @@ idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 # tokenized_data = data.map(preprocess_function, batched=True)
 
 # from transformers import AutoModelForMultipleChoice, TrainingArguments, Trainer
-# model = AutoModelForMultipleChoice.from_pretrained("./checkpoint-5000")
+# model = AutoModelForMultipleChoice.from_pretrained("./berttweet/checkpoint-8500")
 
 
 # from dataclasses import dataclass
@@ -115,12 +115,12 @@ pranaydf = pd.read_csv(pranayfileloc)
 # pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
 # print(pranaydf)
 
-targetloc = os.path.join("TweetSAPreds", "targetSentResults_siebert_num.csv")
+targetloc = os.path.join("TweetSAPreds", "targetSentResults_finalversion.csv")
 targetdf = pd.read_csv(targetloc)
-targetdf = targetdf[["entity","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
+targetdf = targetdf[["search_query","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
 # print(targetdf, targetdf.columns)
 
-combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="entity")
+combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="search_query")
 # combinedf = combinedf.drop_duplicates(subset=["aspect","sentence"])
 combinedf =combinedf[["image", "sentence","hero", "villain", "victim", "other", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
 

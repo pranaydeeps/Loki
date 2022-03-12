@@ -5,17 +5,17 @@ import numpy as np
 import random
 
 def main():
-    pranayfileloc = "logit_backups_bertweet/test_with_logits_bertweet.csv"
+    pranayfileloc = "logit_backups_bertweet/train_with_logits_bertweet.csv"
     pranaydf = pd.read_csv(pranayfileloc)
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf)
 
     targetloc = os.path.join("TweetSAPreds", "targetSentResults_finalversion.csv")
     targetdf = pd.read_csv(targetloc)
-    targetdf = targetdf[["entity","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
+    targetdf = targetdf[["search_query","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
     print(targetdf, targetdf.columns)
 
-    combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="entity")
+    combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect", right_on="search_query")
     combinedf = combinedf.drop_duplicates(subset=["aspect","sentence"])
     combinedf =combinedf[["sentence","hero", "villain", "victim", "other", "label", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
     
@@ -40,7 +40,7 @@ def main():
     combinedf["victimsim"] = victimsim"""
     print(combinedf, combinedf.columns)
 
-    outpath = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
+    outpath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
     combinedf.to_csv(outpath, index=False)
 
 
