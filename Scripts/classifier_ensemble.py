@@ -18,14 +18,14 @@ from xgboost import XGBClassifier
 def main():
     test_features = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     test_df = pd.read_csv(test_features)
-    test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2","hero3", "villain3", "victim3", "other3", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
-    test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
+    test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2","hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
+    #test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("int")
     true_labels = test_df["label"]
 
     featurepath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
     featuresdf  = pd.read_csv(featurepath)
-    features = featuresdf[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2", "hero3", "villain3", "victim3", "other3", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
-    features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("category")
+    features = featuresdf[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2", "hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']] 
+    #features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("int")
     labels = featuresdf["label"]
 
     models = ["XGB", "RF", "SVM"]
@@ -40,8 +40,8 @@ def main():
             'colsample_bytree': [0.6, 0.8, 1.0],
             'max_depth': [3, 4, 5]
             }
-            xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', nthread=1)
-            model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
+            model = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', use_label_encoder=False, verbosity=2, n_jobs=-1)
+            #model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
 
 
         elif modelname == "RF":
@@ -60,7 +60,7 @@ def main():
         
         
         model.fit(X=features, y=labels)
-        print(model.best_params_)
+        #print(model.best_params_)
         path = os.path.join("models","model{}.pkl".format(modelname))
         with open(path, 'wb') as file:
             pickle.dump(model, file)

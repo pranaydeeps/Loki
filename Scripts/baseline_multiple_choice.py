@@ -126,13 +126,13 @@ def compute_metrics(pred):
 
 
 training_args = TrainingArguments(
-     output_dir="./berttweet/",
+     output_dir="./bertweet-covid19/",
      evaluation_strategy="steps",
      eval_steps=1000,
      learning_rate=1e-5,
      per_device_train_batch_size=1,
      per_device_eval_batch_size=2,
-     num_train_epochs=5,
+     num_train_epochs=15,
      gradient_accumulation_steps=8,
      weight_decay=0.01,
      save_total_limit=3,
@@ -163,7 +163,7 @@ for i, point in enumerate(tokenized_data["train"]):
     #print((hero,villain,victim,other))
     train_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('train_with_logits_bertweet.csv', 'w') as f:
+with open('train_with_logits_bertweet_covid19.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(train_csv)
 
@@ -173,7 +173,7 @@ for i, point in enumerate(tokenized_data["test"]):
     #print((hero,villain,victim, other))
     test_csv.append([point["sentence"], point["aspect"], point["label"], float(hero), float(villain), float(victim), float(other)])
 
-with open('test_with_logits_bertweet.csv', 'w') as f:
+with open('test_with_logits_bertweet_covid19.csv', 'w') as f:
     write = csv.writer(f)
     write.writerows(test_csv)
 
