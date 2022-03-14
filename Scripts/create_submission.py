@@ -154,10 +154,10 @@ from sklearn.tree import DecisionTreeClassifier
 
 test_features = os.path.join("ClassifierFiles", "ClassDF_TestFinal.csv")
 test_df = pd.read_csv(test_features)
-test_features = test_df[[ "hero", "villain", "victim", "other", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
-test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
+test_features = test_df[[ "hero", "villain", "victim", "other", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
+#test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
     
-loaded_model = pickle.load(open('models/modelSVM.pkl', 'rb'))
+loaded_model = pickle.load(open('models/modelTPOT.pkl', 'rb'))
 print("Model Loaded")
 print("Done")
 
