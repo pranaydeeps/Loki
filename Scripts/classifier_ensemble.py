@@ -28,7 +28,7 @@ def main():
     #features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("int")
     labels = featuresdf["label"]
 
-    models = ["RF", "SVM"]
+    models = ["XGB"]
 
     for modelname in models:
         print("Model: {}".format(modelname))
@@ -40,8 +40,8 @@ def main():
             'colsample_bytree': [0.6, 0.8, 1.0],
             'max_depth': [3, 4, 5]
             }
-            model = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', use_label_encoder=False, verbosity=2, n_jobs=-1)
-            #model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
+            xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', use_label_encoder=False, verbosity=1)
+            model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
 
 
         elif modelname == "RF":
