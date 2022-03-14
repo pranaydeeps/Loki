@@ -15,6 +15,18 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
+from tpot import TPOTClassifier
+from sklearn.feature_selection import SelectFwe, f_classif
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import BernoulliNB, GaussianNB
+from sklearn.pipeline import make_pipeline, make_union
+from tpot.builtins import StackingEstimator
+from tpot.export_utils import set_param_recursive
+
+
+
+
 def main():
     test_features = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     test_df = pd.read_csv(test_features)
@@ -28,53 +40,31 @@ def main():
     #features["dom_tweet_sent_siebert"] = features["dom_tweet_sent_siebert"].astype("int")
     labels = featuresdf["label"]
 
-    models = ["XGB"]
-
-    for modelname in models:
-        print("Model: {}".format(modelname))
-        if modelname == "XGB":
-            param_grid = {
-            'min_child_weight': [1, 5, 10],
-            'gamma': [0.5, 1, 1.5, 2, 5],
-            'subsample': [0.6, 0.8, 1.0],
-            'colsample_bytree': [0.6, 0.8, 1.0],
-            'max_depth': [3, 4, 5]
-            }
-            xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='multi:softmax', use_label_encoder=False, verbosity=1)
-            model = GridSearchCV(xgb, param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
-
-
-        elif modelname == "RF":
-            param_grid = { 
-            'n_estimators': [200, 500],
-            'max_features': ['auto', 'sqrt', 'log2'],
-            'max_depth' : [4,5,6,7],
-            'criterion' :['gini', 'entropy']}
-            model = GridSearchCV(RandomForestClassifier(), param_grid=param_grid, n_jobs=-1, scoring='f1_macro', verbose=3, refit=True)
-
-        elif modelname == "SVM":
-            param_grid = {'C': [0.1, 1, 10, 100],
-              'gamma': [1, 0.1, 0.01, 0.001],
-              'kernel': ['linear','rbf']}
-            model = GridSearchCV(SVC(class_weight='balanced'), param_grid, refit = True, verbose = 3, scoring='f1_macro', n_jobs=-1)
+    # tpot = TPOTClassifier(generations=5, population_size=50, verbosity=3, random_state=42, scoring='f1_macro')
+    tpot = make_pipeline(
+    SelectFwe(score_func=f_classif, alpha=0.014),
+    StackingEstimator(estimator=BernoulliNB(alpha=100.0, fit_prior=False)),
+    StackingEstimator(estimator=GaussianNB()),
+    LogisticRegression(C=5.0, dual=False, penalty="l2")
+    )
+# Fix random state for all the steps in exported pipeline
+    set_param_recursive(tpot.steps, 'random_state', 42)
+    tpot.fit(features, labels)
+    # print(tpot.score(test_features, true_labels))
+    # tpot.export('tpot_pipeline.py')
         
-        
-        model.fit(X=features, y=labels)
-        #print(model.best_params_)
-        path = os.path.join("models","model{}.pkl".format(modelname))
-        with open(path, 'wb') as file:
-            pickle.dump(model, file)
-        print("Model saved")
-        print("Done")
-        
-        results = model.predict(X=test_features)
-        results = results.tolist()
+    #print(model.best_params_)
+    path = os.path.join("models","modelTPOT.pkl")
+    with open(path, 'wb') as file:
+        pickle.dump(tpot, file)
+    print("Model saved")
+    print("Done")
+    
+    results = tpot.predict(X=test_features)
+    results = results.tolist()
 
 
-        print(classification_report(y_true=true_labels, y_pred= results))
-        test_df["{}_pred".format(modelname)] = results
-    test_df.to_csv(os.path.join("ClassifierFiles", "Predictions_Test.csv"), index=False)
-
+    print(classification_report(y_true=true_labels, y_pred= results))
 
 if __name__ == "__main__":
     main()

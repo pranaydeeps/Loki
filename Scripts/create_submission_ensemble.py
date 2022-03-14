@@ -240,7 +240,7 @@ test_df = pd.read_csv(test_features)
 test_features = test_df[["hero", "villain", "victim", "other", "hero2", "villain2", "victim2", "other2","hero3", "villain3", "victim3", "other3", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
 # test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
     
-loaded_model = pickle.load(open('models/modelRF.pkl', 'rb'))
+loaded_model = pickle.load(open('models/modelTPOT.pkl', 'rb'))
 print("Model Loaded")
 print("Done")
 
@@ -251,5 +251,5 @@ results = results.tolist()
 # print(classification_report(y_true=true_labels, y_pred= results))
 test_df["pred"] = results
 test_df["pred"] = test_df["pred"].replace({0: "villain", 1 : "hero", 2 : "victim", 3 : "other"})
-test_df.to_csv(os.path.join("ClassifierFiles", "Predictions_TestFinal_ensembleV4.csv"), index=False)
+test_df.to_csv(os.path.join("ClassifierFiles", "Predictions_TestFinal_TPOT.csv"), index=False)
 
