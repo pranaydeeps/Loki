@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 def main():
-    pranayfileloc = "logit_backups_bertweet/train_with_logits_bertweet.csv"
+    pranayfileloc = "logit_backups_bertweet/test_with_logits_bertweet.csv"
     pranaydf = pd.read_csv(pranayfileloc)
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
     print(pranaydf)
@@ -40,7 +40,7 @@ def main():
     combinedf["victimsim"] = victimsim"""
     print(combinedf, combinedf.columns)
 
-    outpath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
+    outpath = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     combinedf.to_csv(outpath, index=False)
 
 
