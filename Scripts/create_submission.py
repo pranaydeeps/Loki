@@ -9,7 +9,9 @@ import numpy as np
 import csv
 from torch import nn
 import os
+from gensim.models.wrappers import FastText
 
+fastText_model = FastText.load_fasttext_format('../result_tokenized/backgroundcorpus')
 tag2idx = {'hero' : 0, 'villain': 1, 'victim': 2, 'other': 3}
 idx2tag = {0 : 'hero', 1: 'villain', 2: 'victim', 3: 'other'}
 
@@ -124,6 +126,16 @@ combinedf = pd.merge(left=pranaydf, right=targetdf, how="left", left_on="aspect"
 # combinedf = combinedf.drop_duplicates(subset=["aspect","sentence"])
 combinedf =combinedf[["image", "sentence","hero", "villain", "victim", "other", "aspect","dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert',]]
 
+fastTextvecs = []
+replaced = 0
+for word in combinedf["aspect"]:
+    try:
+        fastTextvecs.append(fastText_model.wv[word])
+    except:
+        fastTextvecs.append(fastText_model.wv['<UNK>'])
+        replaced+=1
+print("USING UNK TOKENS FOR {} ASPECTS".format(replaced))
+
 combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].fillna("Neutral")
 combinedf["dom_tweet_sent_siebert"] = combinedf["dom_tweet_sent_siebert"].replace({"Negative": 0, "Neutral": 1, "Positive": 2})
 combinedf = combinedf.fillna(0.33)
@@ -135,6 +147,10 @@ combinedf = combinedf.fillna(0.33)
 outpath = os.path.join("ClassifierFiles", "ClassDF_TestFinal.csv")
 combinedf.to_csv(outpath, index=False)
 
+with open('ClassDF_TestFinal_FT.csv', 'w') as f:
+        # using csv.writer method from CSV package
+        write = csv.writer(f)  
+        write.writerows(fastTextvecs)
 
 from unicodedata import category
 import pandas as pd
@@ -154,14 +170,16 @@ from sklearn.tree import DecisionTreeClassifier
 
 test_features = os.path.join("ClassifierFiles", "ClassDF_TestFinal.csv")
 test_df = pd.read_csv(test_features)
-test_features = test_df[[ "hero", "villain", "victim", "other", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
-#test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
-    
+test_features = test_df[[ "hero", "villain", "victim", "other", "dom_tweet_sent_siebert", 'Negative_siebert', 'Neutral_siebert', 'Positive_siebert']]
+# test_features["dom_tweet_sent_siebert"] = test_features["dom_tweet_sent_siebert"].astype("category")
+test_ft = np.genfromtxt("ClassDF_TestFinal_FT.csv",delimiter=',')
+test_npy = test_features.to_numpy()
+final_test_features = np.concatenate((test_npy,test_ft),axis=1)
 loaded_model = pickle.load(open('models/modelTPOT.pkl', 'rb'))
 print("Model Loaded")
 print("Done")
 
-results = loaded_model.predict(X=test_features)
+results = loaded_model.predict(final_test_features)
 results = results.tolist()
 
 
