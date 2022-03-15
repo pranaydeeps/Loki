@@ -7,7 +7,7 @@ def main():
     path = os.path.join("unseen_test.jsonl")
     df = pd.read_json(path, lines=True)
 
-    predpath = os.path.join("ClassifierFiles", "Predictions_TestFinal_ensembleV4.csv")
+    predpath = os.path.join("ClassifierFiles", "Predictions_TestFinal_ensembleV5.csv")
     preddf = pd.read_csv(predpath)
     # .replace({"villain": 0, "hero" : 1, "victim": 2, "other":3})
 

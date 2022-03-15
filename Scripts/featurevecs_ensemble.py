@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 def main():
-    split = 'train'
+    split = 'test'
     pranayfileloc = "{}ensemble_with_logits.csv".format(split)
     pranaydf = pd.read_csv(pranayfileloc)
     pranaydf = pranaydf.drop_duplicates(subset=["aspect","sentence"])
@@ -47,6 +47,11 @@ def main():
     
     combinedf["label"] = combinedf["label"].replace({"villain": 0, "hero" : 1, "victim": 2, "other":3})
 
+    combinedf["other"].loc[combinedf['other'] >=0.9] = 0.0
+    combinedf["other2"].loc[combinedf['other2'] >=0.9] = 0.0
+    combinedf["other3"].loc[combinedf['other3'] >=0.9] = 0.0
+
+
 
     """
     herosim = []
@@ -62,7 +67,7 @@ def main():
     combinedf["victimsim"] = victimsim"""
     print(combinedf, combinedf.columns)
 
-    outpath = os.path.join("ClassifierFiles", "ClassDF_Train.csv")
+    outpath = os.path.join("ClassifierFiles", "ClassDF_Test.csv")
     combinedf.to_csv(outpath, index=False)
 
 
